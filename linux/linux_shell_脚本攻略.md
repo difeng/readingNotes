@@ -23,4 +23,24 @@ bash中注释以#开始
 
 终端打印
 基本命令echo
+几种用法
+```shell
+$ echo hello world
+hello world
+$ echo "hello world"
+hello world
+$ echo 'hello world'
+hello world
 
+```
+注意：
+> * 使用不带引号的echo时,没法在所要显示的文本中使用分号(;)
+> * 变量替换在单引号中无效
+
+另一个终端命令printf，使用方法与c语言中的printf方法类似
+其中的格式替换符如下
+%s,%c,%d,%f
+默认为右对齐方式，若要左对齐%-
+
+echo默认会在其末尾加上换行符
+echo -e "包含转义序列的字符串"
