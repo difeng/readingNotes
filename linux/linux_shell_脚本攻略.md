@@ -44,3 +44,41 @@ hello world
 
 echo默认会在其末尾加上换行符
 echo -e "包含转义序列的字符串"
+
+###变量与环境变量
+查看进程中运行时的环境变量
+```shell
+cat /pro/$PID/environ
+```
+变量赋值
+var=value
+var 为变量
+value 为变量值
+value中包含空格时必须用双引号
+
+通过变量UID的值可以判断当前用户类型
+root用户为0
+其他用户大于0
+可以输出UID的值echo $UID的值来判断
+
+###使用shelljinxing数学运算
+用let 命令执行基本的算术操作
+```shell
+ #!/bin/bash
+ n1=1;
+ b2=3;
+ let n3=n1+n2;
+ let n1++;
+ let n2--;
+ let n1+=3;
+```
+使用bc工具进行数学运算
+使用例子
+```shell
+echo "12*2" | bc
+24
+n1=20;
+result=`echo "$n1 * 2" | bc`
+echo $result
+40
+```
