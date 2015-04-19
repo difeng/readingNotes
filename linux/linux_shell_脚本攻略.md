@@ -61,7 +61,7 @@ root用户为0
 其他用户大于0
 可以输出UID的值echo $UID的值来判断
 
-###使用shelljinxing数学运算
+###使用shell进行数学运算
 用let 命令执行基本的算术操作
 ```shell
  #!/bin/bash
@@ -81,4 +81,25 @@ n1=20;
 result=`echo "$n1 * 2" | bc`
 echo $result
 40
+```
+bc中设置小数精度
+```shell
+echo "scale=2;5/8" | bc
+0.62
+```
+bc中进制转换
+```shell
+十进制转二进制
+echo "obase=2;4" | bc
+100
+二进制转十进制
+echo "obase=10;ibase=2;100" | bc
+4
+```
+计算平方及平方根
+```shell
+echo "sqrt(10)" | bc
+3
+echo "3^3" | bc
+33
 ```
