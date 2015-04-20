@@ -101,5 +101,44 @@ echo "obase=10;ibase=2;100" | bc
 echo "sqrt(10)" | bc
 3
 echo "3^3" | bc
-33
+27
+```
+#文件描述符和重定向
+ * 1 stdin 标准输入
+ * 2 stdout 标准输出
+ * 3 stderr 标准错误
+
+重定向操作符
+
+\> 先清空，再写入内容
+
+\>> 将内容追加到文件尾部
+
+重定向使用默认标准输出，使用特定文件操作符时如下：
+
+\> 等同于 1>
+
+\>> 等同于 1>>
+ 
+使用实例
+```shell
+将hell字符串写到input.txt文件中
+echo hello > input.txt
+将操作中的错误信息写到文件input.txt中
+ls - 2> input.txt
+more input.txt
+ls: 无法访问-: 没有那个文件或目录
+
+使用自定义文件描述符
+exec 3>input.txt 
+echo hello >&3
+more input.txt 
+hello
+
+exec 4< input.txt 
+cat <&4
+hello
+
+文件描述符只能使用一次，若要再次使用，在重新声明
+
 ```
