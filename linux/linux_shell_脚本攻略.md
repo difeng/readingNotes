@@ -108,7 +108,10 @@ echo "3^3" | bc
  * 2 stdout 标准输出
  * 3 stderr 标准错误
 
-重定向操作符
+####文件打开的几种模式
+ * 只读模式 (<)
+ * 截断写入模式(>)
+ * 追加写入模式(<<)
 
 \> 先清空，再写入内容
 
@@ -142,3 +145,63 @@ hello
 文件描述符只能使用一次，若要再次使用，在重新声明
 
 ```
+#数组和关联数组
+数组定义的几种
+```shell
+arr={t1,t2,t3}
+或者
+arr[0]="t1"
+arr[1]="t2"
+arr[3]="t3"
+打印数组
+echo ${arr[0]}
+t1
+echo ${arr[*]}
+t1
+t2
+t3
+
+```
+关联数组定义
+关联数组可以用任意的文本作为数组的索引
+```shell
+declare -A arr
+赋值
+arr=([index1]=val1 [index2]=val2)
+或者
+arr[index1]=val1
+arr[index2]=val2
+输出索引
+echo ${!arr[*]}
+index1 index2
+
+#获取、设置日期和延时
+```shell
+date
+2015年 04月 25日 星期六 10:46:29 CST
+date +%s
+1429930002
+```
+
+#函数和参数
+ 定义：
+```shell
+function  fname(){
+   statements;
+}
+或
+fname(){
+  statements;
+}
+调用时使用函数名即可
+fname;
+传参数
+fname arg1 arg2;
+参数接收
+fname(){
+ echo $1,$2; #参数1,参数2
+ echo "$@"; #打印参数列表
+}
+```                                          
+
+
