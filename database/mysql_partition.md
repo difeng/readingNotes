@@ -116,7 +116,11 @@ INSERT INTO `test_sub_partition`(other_key,test_time) VALUES(0,'2015-06-16'),(1,
 3.验证
 ```sql
 EXPLAIN PARTITIONS SELECT * FROM test_sub_partition WHERE test_time= '2015-06-16' AND other_key IN (1,11,21,31,41,51,61,71,81,91)
+```
 ![img](http://7xawio.com1.z0.glb.clouddn.com/mysql_subpartitions_result_01.png) 
+```sql
 EXPLAIN PARTITIONS SELECT * FROM test_sub_partition WHERE test_time= '2015-06-16' AND other_key IN (2,12,22,32,42,52,62,72,82,92)
+```
 ![img](http://7xawio.com1.z0.glb.clouddn.com/mysql_subpartitions_result_02.png) 
+
 
