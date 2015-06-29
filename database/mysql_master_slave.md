@@ -6,7 +6,10 @@ server_id = 1
 log_bin = mysql-bin
 从服务器的my.cnf配置如下：
 log_bin = mysql-bin
-
+server_id = 2
+relay_log = mysql-relay-log
+log_slave_updates = 1
+read_only = 1
 在从服务器上执行如下命令：
 ```sh
 mysql> change master to master_host='cherry',
