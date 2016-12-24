@@ -74,8 +74,15 @@ for:
 for (arg <- args)
   println(arg)
 ```
-
-
+7.使用类型参数化数组
+```scala
+val greetStrings = new Array[String](3)
+greetStrings(0) = "Hello"
+greetStrings(1) = ", "
+greetStrings(2) = "world!\n"
+for (i <- 0 to 2)
+  print(greetStrings(i))
+```
 
 
 
