@@ -97,8 +97,6 @@ println("Thus, "+ oneTwoThreeFour +" is a new list.")
 List(1, 2) and List(3, 4) were not mutated.
 Thus, List(1, 2, 3, 4) is a new list.
 ```
-
-
 ```scala
 val twoThree = List(2, 3)
 val oneTwoThree = 1 :: twoThree
