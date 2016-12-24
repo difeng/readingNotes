@@ -6,6 +6,10 @@ scala是构建在java虚拟机上的编程语言。
 
 其他语言中对象和函数式有不同额概念，scala中函数值是一个对象。函数类型是可以被子类继承的类。这使得它有很深的扩展性。
 
+scala里的trait和java里的interface类似，不过trait可以有实现方法。
+
+objects是一个混合，它接受一个类的成员和添加一系列traits成员
+
 
 
 
