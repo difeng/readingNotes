@@ -31,6 +31,26 @@ compatibility, brevity, high-level abstractions, and advanced static typing.(兼
 * 高层次抽象
 * 静态类型
    
+##2.1 scala基础
+1.scala解释器使用
+命令行输入scala即可进入命令行模式
+按:quit退出
+
+2.变量定义
+变量类型：  
+* val:一次赋值，一旦初始化，不能再次赋值     
+* var：在变量生命周期内都可再赋值
+
+3.函数定义：
+```scala
+def max(x: Int,y: Int): Int = {
+    if (x > y) x
+    else y
+}
+```
+
+
+
 
 
 
