@@ -49,6 +49,7 @@ def max(x: Int,y: Int): Int = {
 }
 ```
 4. scala脚本
+
 将scala语句写入一个脚本命名为name.scala。name自己定，然后使用scala name。scala来运行脚本。
 
 5.使用while循环；使用if判断
@@ -106,10 +107,10 @@ println(oneTwoThree)
 结果：
 List(1, 2, 3)
 ```
-“::“前置一个元素到已存在的列表，返回结果列表
-
-
-
+“::“前置一个元素到已存在的列表，返回结果列表。
+表达式“1 :: twoThree”, :: 是其有操作数的方法
+如果一个方法在操作符符号使用，如a * b,则方法被左边的操作数调用，就像a.*(b)。如果一个方法以一个冒号结束，方法将被右边操作数调用。
+1 :: twoThree twoThre调用方法::就像twoThree.::(1)
 
 
 
