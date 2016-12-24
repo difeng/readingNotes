@@ -68,6 +68,21 @@ args.foreach((arg: String) => println(arg))
 ```scala
 args.foreach(println)
 ```
+更简洁的方式:
+```scala
+for (arg <- args)
+  println(arg)
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
