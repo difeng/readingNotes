@@ -68,7 +68,7 @@ args.foreach((arg: String) => println(arg))
 ```scala
 args.foreach(println)
 ```
-
+csc
 ```scala
 
 ```
