@@ -48,8 +48,17 @@ def max(x: Int,y: Int): Int = {
     else y
 }
 ```
+4. scala脚本
+将scala语句写入一个脚本命名为name.scala。name自己定，然后使用scala name。scala来运行脚本。
 
-
+5.使用while循环；使用if判断
+```scala
+var i = 0
+while (i < args.length) {
+  println(args(i))
+  i += 1
+}
+```
 
 
 
