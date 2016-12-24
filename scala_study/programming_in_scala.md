@@ -8,8 +8,9 @@ scala是构建在java虚拟机上的编程语言。
 
 scala里的trait和java里的interface类似，不过trait可以有实现方法。
 
-objects是一个混合，它接受一个类的成员和添加一系列traits成员
+objects是一个混合，它接受一个类的成员和添加一系列traits成员。
 
+trait可以为未指定的超类添加功能。
 
 
 
