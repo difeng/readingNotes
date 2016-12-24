@@ -88,8 +88,26 @@ for (i <- 0 to 2)
 val oneTwo = List(1, 2)
 val threeFour = List(3, 4)
 val oneTwoThreeFour = oneTwo ::: threeFour
+println(oneTwo +" and "+ threeFour +" were not mutated.")
+println("Thus, "+ oneTwoThreeFour +" is a new list.")
 ```
 :::是list的一个连接方法。
+结果：
+```scala
+List(1, 2) and List(3, 4) were not mutated.
+Thus, List(1, 2, 3, 4) is a new list.
+```
+```scala  
+val twoThree = List(2, 3)
+val oneTwoThree = 1 :: twoThree
+println(oneTwoThree)
+
+结果：
+List(1, 2, 3)
+```
+
+::前置一个元素到已存在的列表，返回结果列表
+
 
 
 
