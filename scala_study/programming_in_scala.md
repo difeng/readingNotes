@@ -91,7 +91,7 @@ val oneTwoThreeFour = oneTwo ::: threeFour
 println(oneTwo +" and "+ threeFour +" were not mutated.")
 println("Thus, "+ oneTwoThreeFour +" is a new list.")
 ```
-:::是list的一个连接方法。
+“:::”是list的一个连接方法。
 结果：
 ```scala
 List(1, 2) and List(3, 4) were not mutated.
