@@ -59,6 +59,7 @@ while (i < args.length) {
   i += 1
 }
 ```
+
 5. 使用佛reach和for迭代
 ```scala
 args.foreach((arg: String) => println(arg))
