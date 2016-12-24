@@ -60,7 +60,7 @@ while (i < args.length) {
 }
 ```
 
-6. 使用佛reach和for迭代
+6. 使用佛foreach和for迭代
 ```scala
 args.foreach((arg: String) => println(arg))
 ```
