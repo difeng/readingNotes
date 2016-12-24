@@ -48,7 +48,7 @@ def max(x: Int,y: Int): Int = {
     else y
 }
 ```
-4. scala脚本
+4.scala脚本
 
 将scala语句写入一个脚本命名为name.scala。name自己定，然后使用scala name。scala来运行脚本。
 
