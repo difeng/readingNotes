@@ -83,7 +83,7 @@ greetStrings(2) = "world!\n"
 for (i <- 0 to 2)
   print(greetStrings(i))
 ```
-8.list集合
+8.使用list
 
 
 
