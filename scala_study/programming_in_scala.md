@@ -101,11 +101,11 @@ Thus, List(1, 2, 3, 4) is a new list.
 val twoThree = List(2, 3)
 val oneTwoThree = 1 :: twoThree
 println(oneTwoThree)
-
+```
+```scala
 结果：
 List(1, 2, 3)
 ```
-
 ::前置一个元素到已存在的列表，返回结果列表
 
 
