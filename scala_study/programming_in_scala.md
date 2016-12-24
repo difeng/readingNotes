@@ -23,7 +23,13 @@ trait可以为未指定的超类添加功能。这使得trait比类有更好的�
    
 ###1.3为什么scala？
 compatibility, brevity, high-level abstractions, and advanced static typing.(兼容性，简洁性，高级抽象和高级静态类型。)
-
+* 兼容性: 
+  scala -> jvm字节码
+  scala和java的互操作性
+  scala重用了java的一些类型，并且重新装扮它们，使它们更简洁。
+* 简洁性：
+* 高层次抽象
+* 静态类型
    
 
 
