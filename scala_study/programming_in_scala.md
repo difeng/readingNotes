@@ -63,6 +63,11 @@ while (i < args.length) {
 ```scala
 args.foreach((arg: String) => println(arg))
 ```
+更简洁的方式:
+```scala
+args.foreach(println)
+```
+
 
 
 
