@@ -84,7 +84,12 @@ for (i <- 0 to 2)
   print(greetStrings(i))
 ```
 8.使用list
-
+```scala
+val oneTwo = List(1, 2)
+val threeFour = List(3, 4)
+val oneTwoThreeFour = oneTwo ::: threeFour
+```
+:::是list的一个连接方法。
 
 
 
