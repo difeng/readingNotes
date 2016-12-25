@@ -113,7 +113,30 @@ List(1, 2, 3)
 1 :: twoThree twoThre调用方法::就像twoThree.::(1)
 
 
-## 3.1类和对象
+## 3.类和对象
+### 3.1 类，字段和方法
+```scala
+class ChecksumAccumulator {
+var sum = 0
+}
+```
+实例化两个实例：
+```scala
+val acc = new ChecksumAccumulator
+val csa = new ChecksumAccumulator
+```
+内存状态：
+acc,csa ---> sum ---> 0
+给acc.sum赋值
+```scala
+acc.sum = 3
+```
+内存状态:
+acc ---> sum ---> 3
+csa ---> sum ---> 0
+
+
+
 
 
 
