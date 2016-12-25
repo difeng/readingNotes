@@ -117,7 +117,7 @@ List(1, 2, 3)
 ### 3.1 类，字段和方法
 ```scala
 class ChecksumAccumulator {
-var sum = 0
+  var sum = 0
 }
 ```
 实例化两个实例：
@@ -137,6 +137,13 @@ acc.sum = 3
 ```scala
 acc ---> sum ---> 3
 csa ---> sum ---> 0
+```
+
+scala的单例对象:
+```scala
+object ChecksumAccumulator {
+  var sum = 0
+}
 ```
 
 
