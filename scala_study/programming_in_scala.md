@@ -256,6 +256,7 @@ object FallWinterSpringSummer extends Application {
 ####5.对象相等
 ==，!=
 ####6.运算符优先级
+```scala
 (all other special characters)
 * / %
 + -
@@ -264,6 +265,7 @@ object FallWinterSpringSummer extends Application {
 < >
 & ˆ |
 (all letters)
+```
 
 
 
