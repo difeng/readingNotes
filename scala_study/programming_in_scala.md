@@ -249,6 +249,9 @@ object FallWinterSpringSummer extends Application {
 |\|| 位或|
 |^| 异或|
 |~|取反|
+|<<|左移|
+|>>|右移|
+|>>>|带符号右移|
 
 
 
