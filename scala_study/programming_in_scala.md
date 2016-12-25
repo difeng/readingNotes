@@ -147,6 +147,31 @@ object ChecksumAccumulator {
 ```
 scala的到哪里对象和类有相同的名字，被称为类的伴体对象，类被称作是单例对象的伴体类。类必须在同一个源码文件中定义类和它的伴体对象。一个类和它的伴体对象可以访问彼此的private成员。
 
+类与单类对象不同点：
+类可以带参初始化，单例对象不可以
+
+scala应用
+单例对象里定义一个带Array[String]参数的方法，即可运行此程序
+```scala
+object Summer {
+def main(args:Array[String]) {
+  for (arg <- args)
+    println(arg +": "+ calculate(arg))
+  }
+}
+```
+编译方法
+```scala
+scalac
+fsc(快)
+```
+编译完会生成class文件
+
+运行方法:
+```scala
+例如Summer应用
+scala Summer of the love
+```
 
 
 
