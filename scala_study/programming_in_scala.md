@@ -75,8 +75,6 @@ for:
 for (arg <- args)
   println(arg)
 ```
-##3.1 scala基础
-
 7.使用类型参数化数组
 ```scala
 val greetStrings = new Array[String](3)
@@ -115,6 +113,7 @@ List(1, 2, 3)
 1 :: twoThree twoThre调用方法::就像twoThree.::(1)
 
 
+## 3.1类和对象
 
 
 
