@@ -172,8 +172,15 @@ fsc(快)
 例如Summer应用
 scala Summer of the love
 ```
-
-
+应用程序trait
+scala提供了一个特质scala.Application,可以使用如下方法运行一个应用程序
+```scala
+import ChecksumAccumulator.calculate
+object FallWinterSpringSummer extends Application {
+  for (season <- List("fall", "winter", "spring"))
+    println(season +": "+ calculate(season))
+}
+```
 
 
 
