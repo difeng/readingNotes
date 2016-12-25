@@ -213,7 +213,7 @@ object FallWinterSpringSummer extends Application {
 ####1.scala操作符没有特定的语法定义，任何方法都可以是操作符
 
 ####2.算术运算符
-|operation |描述|
+|符号 |描述|
 | :----| :---- |
 |+| 加|
 |-| 减|
@@ -224,7 +224,7 @@ object FallWinterSpringSummer extends Application {
 ####3.关系和逻辑运算符
 关系运算符
 
-|operation |描述|
+|符号 |描述|
 | :----| :---- |
 |>| 大于|
 |<| 小于|
@@ -234,7 +234,7 @@ object FallWinterSpringSummer extends Application {
 
 逻辑运算符
 
-|operation |描述|
+|符号 |描述|
 | :----| :---- |
 |&&| 与|
 |\|\|| 或|
@@ -243,7 +243,7 @@ object FallWinterSpringSummer extends Application {
 
 ####4.位运算
 
-|operation |描述|
+|符号 |描述|
 | :----| :---- |
 |&| 位与|
 |\|| 位或|
