@@ -194,6 +194,18 @@ object FallWinterSpringSummer extends Application {
 |Float |32-bit IEEE 754 single-precision float|
 |Double |64-bit IEEE 754 double-precision float|
 |Boolean |true or false|
+特殊字符使用转义序列：
+
+|Literal |Meaning|
+| :----| :---- |
+|\n |line feed (\u000A)|
+|\b |backspace (\u0008)|
+|\t |tab (\u0009)|
+|\f |form feed (\u000C)|
+|\r |carriage return (\u000D)|
+|\" |double quote (\u0022)|
+|\' |single quote (\u0027)|
+|\\ |backslash (\u005C)|
 
 
 
