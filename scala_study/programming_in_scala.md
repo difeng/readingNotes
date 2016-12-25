@@ -126,14 +126,18 @@ val acc = new ChecksumAccumulator
 val csa = new ChecksumAccumulator
 ```
 内存状态：
+```scala
 acc,csa ---> sum ---> 0
+```
 给acc.sum赋值
 ```scala
 acc.sum = 3
 ```
 内存状态:
+```scala
 acc ---> sum ---> 3
 csa ---> sum ---> 0
+```
 
 
 
