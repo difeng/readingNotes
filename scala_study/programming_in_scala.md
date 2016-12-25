@@ -145,6 +145,7 @@ object ChecksumAccumulator {
   var sum = 0
 }
 ```
+scala的到哪里对象和类有相同的名字，被叫做类的扩展对象，必须在同一个源码文件中定义类和它的扩展对象。
 
 
 
