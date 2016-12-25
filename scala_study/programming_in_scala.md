@@ -183,6 +183,7 @@ object FallWinterSpringSummer extends Application {
 ```
 ## 4. 基本类型和操作
 基本数据类型:
+
 |Value type| Range|
 | :----| :---- |
 |Byte |8-bit signed two’s complement integer (-27 to 27 - 1, inclusive)|
@@ -194,6 +195,7 @@ object FallWinterSpringSummer extends Application {
 |Float |32-bit IEEE 754 single-precision float|
 |Double |64-bit IEEE 754 double-precision float|
 |Boolean |true or false|
+
 特殊字符使用转义序列：
 
 |Literal |Meaning|
