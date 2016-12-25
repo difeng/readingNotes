@@ -75,6 +75,8 @@ for:
 for (arg <- args)
   println(arg)
 ```
+##3.1 scala基础
+
 7.使用类型参数化数组
 ```scala
 val greetStrings = new Array[String](3)
