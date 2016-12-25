@@ -253,6 +253,18 @@ object FallWinterSpringSummer extends Application {
 |>>|右移|
 |>>>|带符号右移|
 
+####5.对象相等
+==，!=
+####6.运算符优先级
+(all other special characters)
+* / %
++ -
+:
+= !
+< >
+& ˆ |
+(all letters)
+
 
 
 
