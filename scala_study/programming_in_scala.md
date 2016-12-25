@@ -243,6 +243,13 @@ object FallWinterSpringSummer extends Application {
 
 ####4.位运算
 
+|operation |描述|
+| :----| :---- |
+|&| 位与|
+|\|| 位或|
+|^| 异或|
+|~|取反|
+
 
 
 
