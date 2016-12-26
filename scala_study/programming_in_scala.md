@@ -279,6 +279,22 @@ object FallWinterSpringSummer extends Application {
 |"bob" capitalize| "Bob"|
 |"robert" drop 2| "bert"|
 
+丰富的包装类:
+
+|Basic type| Rich wrapper|
+| :----| :---- |
+|Byte |scala.runtime.RichByte|
+|Short| scala.runtime.RichShort|
+|Int |scala.runtime.RichInt|
+|Char|scala.runtime.RichChar|
+|Float|scala.runtime.RichFloat|
+|Double| scala.runtime.RichDouble|
+|Boolean |scala.runtime.RichBoolean|
+|String |scala.collection.immutable.StringOps|
+
+
+
+
 
 
 
