@@ -49,4 +49,7 @@ println(if (!args.isEmpty) args(0) else "default.txt")
 ###while循环
 scala中while和do while被称作循环而不是表达式，因为它们不反回任何感兴趣的值
 while条件判断里不能写赋值语句因为赋值语句表达式的值是unit。
-由于while循环没有返回值偶一经常被排除在函数式语言之外。
+由于while循环没有返回值偶一经常被排除在纯函数式语言之外。
+
+
+
