@@ -127,5 +127,7 @@ def scalaFiles =
 ```
 ###7.4 try表达式处理异常
 #### 抛出异常(Throwing exceptions)
-
+```scala
+throw new IllegalArgumentException
+```
 
