@@ -23,5 +23,13 @@
 
 ## 7.内置的控制结构
 scala基本的控制结构尽可能小，足以提供命令式语言的所有要点。通过允许你持有结果值来缩短代码。
-1.if语句
+
+###1.if语句
+
+命令式的写法
+```scala
+var filename = "default.txt"
+if (!args.isEmpty)
+  filename = args(0)
+```
 
