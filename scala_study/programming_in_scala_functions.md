@@ -125,6 +125,7 @@ def scalaFiles =
     if file.getName.endsWith(".scala")
   } yield file
 ```
+###7.4 try表达式处理异常
 
 
 
