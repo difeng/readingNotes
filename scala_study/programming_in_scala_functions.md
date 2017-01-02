@@ -32,4 +32,10 @@ var filename = "default.txt"
 if (!args.isEmpty)
   filename = args(0)
 ```
+函数式写法：
+```scala
+val filename = 
+  if (!args.isEmpty)  args(0)
+  else  "default.txt"
+```
 
