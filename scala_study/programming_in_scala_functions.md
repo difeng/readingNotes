@@ -140,7 +140,6 @@ case ex: FileNotFoundException => // Handle missing file
 case ex: IOException => // Handle other I/O error
 }
 ```
-
 ####finally子句
 ```scala
 val file = new FileReader("input.txt")
