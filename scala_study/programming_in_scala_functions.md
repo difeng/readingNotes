@@ -93,11 +93,12 @@ for (
 ```
 ####内部迭代
 ```scala
-for (
-  file <- filesHere
-  if file.getName.endsWith(".scala");
-  line <- fileLines(file)
-  if line.trim.matches(pattern)
+def grep(pattern: String) =
+  for (
+    file <- filesHere
+    if file.getName.endsWith(".scala");
+    line <- fileLines(file)
+    if line.trim.matches(pattern)
 ) println(file +": "+ line.trim)
 ```
 ####中间变量绑定
