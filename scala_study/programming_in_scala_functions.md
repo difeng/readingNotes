@@ -130,4 +130,4 @@ def scalaFiles =
 ```scala
 throw new IllegalArgumentException
 ```
-
+####捕获异常(Catching exceptions)
