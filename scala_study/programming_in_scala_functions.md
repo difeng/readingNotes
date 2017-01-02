@@ -100,6 +100,8 @@ for (
   if line.trim.matches(pattern)
 ) println(file +": "+ line.trim)
 ```
+####中间变量绑定
+
 
 
 
