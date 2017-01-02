@@ -172,6 +172,6 @@ val friend =
   
 println(friend)
 ```
-###7.6不使用break和continue
+###7.6 不使用break和continue
 使用其他方式替代break和continue
 ###7.7 变量作用域
