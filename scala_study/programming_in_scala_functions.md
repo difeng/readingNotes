@@ -42,5 +42,8 @@ val filename =
 
 1.代码易读 
 
-2.更好的支持等式推理
+2.更好的支持等式推理。在表达式没有副作用的情况下，引入变量等于计算它的表达式。从而任何情况下，当你写变量名时，可以换一种表达方式。而不是println(filename),例如，你可以这样写:
+```scala
+println(if (!args.isEmpty) args(0) else "default.txt")
+```
 
