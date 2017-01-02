@@ -118,7 +118,13 @@ def grep(pattern: String) =
 grep(".*gcd.*")
 ```
 ####生成一个新集合
-
+```scala
+def scalaFiles =
+  for {
+    file <- filesHere
+    if file.getName.endsWith(".scala")
+  } yield file
+```
 
 
 
