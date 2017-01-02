@@ -38,7 +38,7 @@ val filename =
   if (!args.isEmpty)  args(0)
   else  "default.txt"
 ```
-使用val的好处
+使用val的好处：
 
 1.代码易读 
 
