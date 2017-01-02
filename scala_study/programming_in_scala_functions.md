@@ -24,7 +24,7 @@
 ## 7.内置的控制结构
 scala基本的控制结构尽可能小，足以提供命令式语言的所有要点。通过允许你持有结果值来缩短代码。
 
-###1.if语句
+###7.1.if语句
 
 命令式的写法
 ```scala
@@ -46,10 +46,9 @@ val filename =
 ```scala
 println(if (!args.isEmpty) args(0) else "default.txt")
 ```
-###while循环
+###7.2 while循环
 scala中while和do while被称作循环而不是表达式，因为它们不反回任何感兴趣的值
 while条件判断里不能写赋值语句因为赋值语句表达式的值是unit。
 由于while循环没有返回值，因此经常被排除在纯函数式语言之外。
-
-
+###
 
