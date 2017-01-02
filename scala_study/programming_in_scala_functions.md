@@ -126,6 +126,6 @@ def scalaFiles =
   } yield file
 ```
 ###7.4 try表达式处理异常
-
+#### 抛出异常(Throwing exceptions)
 
 
