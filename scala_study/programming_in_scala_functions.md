@@ -131,3 +131,12 @@ def scalaFiles =
 throw new IllegalArgumentException
 ```
 ####捕获异常(Catching exceptions)
+```scala
+try {
+val f = new FileReader("input.txt")
+// Use and close file
+} catch {
+case ex: FileNotFoundException => // Handle missing file
+case ex: IOException => // Handle other I/O error
+}
+```
