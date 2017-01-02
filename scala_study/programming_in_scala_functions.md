@@ -58,5 +58,20 @@ for (file <- filesHere)
 println(file)
 ```
 ```scala
+for (i <- 1 to 4)
+  println("Iteration "+ i)
 
+
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+```
+```scala
+for (i <- 1 until 4)
+  println("Iteration "+ i)
+  
+Iteration 1
+Iteration 2
+Iteration 3
 ```
