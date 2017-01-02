@@ -38,3 +38,4 @@ val filename =
   if (!args.isEmpty)  args(0)
   else  "default.txt"
 ```
+val的好处1：代码易读
