@@ -113,8 +113,8 @@ List(1, 2, 3)
 1 :: twoThree twoThre调用方法::就像twoThree.::(1)
 
 
-## 3.类和对象
-### 3.1 类，字段和方法
+## 4.类和对象
+### 4.1 类，字段和方法
 ```scala
 class ChecksumAccumulator {
   var sum = 0
@@ -181,7 +181,7 @@ object FallWinterSpringSummer extends Application {
     println(season +": "+ calculate(season))
 }
 ```
-## 4. 基本类型和操作
+## 5. 基本类型和操作
 基本数据类型:
 
 |Value type| Range|
