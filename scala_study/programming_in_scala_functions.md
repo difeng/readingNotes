@@ -149,3 +149,13 @@ try {
   file.close() // Be sure to close the file
 }
 ```
+####Yielding a value
+```scala
+def urlFor(path: String) =
+  try {
+    new URL(path)
+  } catch {
+    case e: MalformedURLException =>
+    new URL("http://www.scala-lang.org")
+  }
+```
