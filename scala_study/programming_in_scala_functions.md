@@ -100,6 +100,9 @@ def grep(pattern: String) =
     line <- fileLines(file)
     if line.trim.matches(pattern)
 ) println(file +": "+ line.trim)
+
+grep(".*gcd.*")
+
 ```
 ####中间变量绑定
 ```scala
@@ -112,6 +115,7 @@ def grep(pattern: String) =
     if trimmed.matches(pattern)
 } println(file +": "+ trimmed)
 grep(".*gcd.*")
+
 ```
 
 
