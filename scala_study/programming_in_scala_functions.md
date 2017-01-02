@@ -51,7 +51,9 @@ scala中while和do while被称作循环而不是表达式，因为它们不反�
 while条件判断里不能写赋值语句因为赋值语句表达式的值是unit。
 由于while循环没有返回值，因此经常被排除在纯函数式语言之外。
 ###7.3 for表达式
-for的表达方式多样：
+for的表达方式多样
+
+迭代遍历集合
 ```scala
 val filesHere = (new java.io.File(".")).listFiles
 for (file <- filesHere)
@@ -75,3 +77,4 @@ Iteration 1
 Iteration 2
 Iteration 3
 ```
+
