@@ -117,6 +117,7 @@ def grep(pattern: String) =
 
 grep(".*gcd.*")
 ```
+####生成一个新集合
 
 
 
