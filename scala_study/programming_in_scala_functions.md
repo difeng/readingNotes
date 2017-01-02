@@ -114,8 +114,8 @@ def grep(pattern: String) =
     trimmed = line.trim
     if trimmed.matches(pattern)
 } println(file +": "+ trimmed)
-grep(".*gcd.*")
 
+grep(".*gcd.*")
 ```
 
 
