@@ -175,3 +175,4 @@ println(friend)
 ###7.6 不使用break和continue
 使用其他方式替代break和continue
 ###7.7 变量作用域
+###7.8 重构命令式代码风格
