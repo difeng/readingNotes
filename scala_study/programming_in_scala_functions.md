@@ -86,9 +86,9 @@ for (file <- filesHere)
 多个过滤器
 ```scala
 for (
-file <- filesHere
-if file.isFile
-if file.getName.endsWith(".scala")
+  file <- filesHere
+  if file.isFile
+  if file.getName.endsWith(".scala")
 ) println(file)
 ```
 
