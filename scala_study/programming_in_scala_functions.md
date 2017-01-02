@@ -91,6 +91,15 @@ for (
   if file.getName.endsWith(".scala")
 ) println(file)
 ```
+####内部迭代
+```scala
+for (
+  file <- filesHere
+  if file.getName.endsWith(".scala");
+  line <- fileLines(file)
+  if line.trim.matches(pattern)
+) println(file +": "+ line.trim)
+```
 
 
 
