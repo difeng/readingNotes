@@ -198,6 +198,6 @@ def processFile(filename: String, width: Int) {
     processLine(filename, width, line)
 }
 ```
-
+函数processLine在函数processFile内，可以访问processFile的filename和width
 
 
