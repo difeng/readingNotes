@@ -184,4 +184,16 @@ println(friend)
 
 将程序拆解为多个小的方然后做好每一个定义好的任务。私有方法经常相当小。这样的优点是编程者可以利用小的代码块组合出复杂的功能。每一个构建快应当足够简洁，可以单独理解。
 
+local functions 示例
+
+```scala
+def processFile(filename: String, width: Int) {
+  def processLine(filename: String, width: Int, line: String) {
+    if (line.length > width)
+      println(filename + ": " + line)
+  }
+}
+```
+
+
 
