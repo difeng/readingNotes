@@ -179,3 +179,4 @@ println(friend)
 ###7.9 结论
 
 ##8 函数和闭包
+####Local functions
