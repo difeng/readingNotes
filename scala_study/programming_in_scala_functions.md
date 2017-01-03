@@ -215,6 +215,7 @@ traits in package scala, such as Function0 for functions with no parameters, Fun
 functions with one parameter, and so on. Each FunctionN trait has an apply method used to
 invoke the function.
 
+#### function literals的短形式
 
 
 
