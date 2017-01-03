@@ -192,6 +192,10 @@ def processFile(filename: String, width: Int) {
     if (line.length > width)
       println(filename + ": " + line)
   }
+  
+  val source = Source.fromFile(filename) 
+  for (line <- source.getLines())
+    processLine(filename, width, line)
 }
 ```
 
