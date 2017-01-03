@@ -202,5 +202,10 @@ def processFile(filename: String, width: Int) {
 
 ####first-class functions
 可以将函数作为一个未命名的字面量，做为值来传递它。
+
 函数字面量被编译成一个类，当在运行时初始化时是函数值
 函数值是对象
+
+函数字面量(function literals)和值(values)的区别是  function literals存在于代码中，而values存在于运行时
+
+
