@@ -208,4 +208,13 @@ def processFile(filename: String, width: Int) {
 
 函数字面量(function literals)和值(values)的区别是  function literals存在于代码中，而values存在于运行时
 
+function values
+
+>Every function value is an instance of some class that extends one of several FunctionN
+traits in package scala, such as Function0 for functions with no parameters, Function1 for
+functions with one parameter, and so on. Each FunctionN trait has an apply method used to
+invoke the function.
+
+
+
 
