@@ -201,4 +201,6 @@ def processFile(filename: String, width: Int) {
 函数processLine在函数processFile内，可以访问processFile的filename和width
 
 ####first-class functions
-
+可以将函数作为一个未命名的字面量，做为值来传递它。
+函数字面量被编译成一个类，当在运行时初始化时是函数值
+函数值是对象
