@@ -188,7 +188,7 @@ local functions 示例
 
 ```scala
 def processFile(filename: String, width: Int) {
-  def processLine(filename: String, width: Int, line: String) {
+  def processLine(line: String) {
     if (line.length > width)
       println(filename + ": " + line)
   }
