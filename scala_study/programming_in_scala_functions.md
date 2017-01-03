@@ -200,4 +200,5 @@ def processFile(filename: String, width: Int) {
 ```
 函数processLine在函数processFile内，可以访问processFile的filename和width
 
+####first-class functions
 
