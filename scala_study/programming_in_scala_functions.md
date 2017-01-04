@@ -226,7 +226,6 @@ someNumbers.filter((x) => x > 0)
 ```
 
 ####Placeholder syntax
-
 可以使用下划线使代码更简
 例如，筛选someNumbers中大于0的数：
 ```scala
