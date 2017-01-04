@@ -231,6 +231,6 @@ someNumbers.filter((x) => x > 0)
 ```scala
 someNumbers.filter(_ > 0)
 ```
-
+####Closure(闭包)
 
 
