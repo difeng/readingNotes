@@ -240,6 +240,19 @@ someNumbers.foreach(x => println(x))
 ```scala
 someNumbers.foreach(println _)
 ```
+定义函数sum，有三个参数
+```scala
+scala> def sum(a: Int, b: Int, c: Int) = a + b + c
+sum: (a: Int,b: Int,c: Int)Int
+调用
+scala> sum(1, 2, 3)
+res10: Int = 6
+```
+```scala
+scala> val a = sum _
+a: (Int, Int, Int) => Int = <function3>
+```
+
 ####Closure(闭包) 
 
 
