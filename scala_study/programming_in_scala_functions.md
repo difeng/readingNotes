@@ -255,12 +255,15 @@ a: (Int, Int, Int) => Int = <function3>
 scala> a(1, 2, 3)
 res11: Int = 6
 ```
-a变量引用一个函数值对象，这个函数值是一个编译器从sum _自动生成的一个类的实例，这个生成的类的apply方法将携带三个参数，因为sum _省略了三个参数。
+a变量引用一个函数值对象，这个函数值是一个编译器从sum _自动生成的一个类的实例，这个生成的类的apply方法将携带三个参数，因为sum _省略了三个参数。scala会把a(1, 2, 3)表达式翻译为apply方法的调用,如a(1,2,3)是以下写法的简写: 
 ```scala
 scala> a.apply(1, 2, 3)
 res12: Int = 6
 ```
-
+```scala
+scala> val b = sum(1, _: Int, 3)
+b: (Int) => Int = <function1>
+```
 ####Closure(闭包) 
 
 
