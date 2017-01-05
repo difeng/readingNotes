@@ -321,4 +321,8 @@ out.println("time = "+ System.currentTimeMillis())
 #####尾递归的限制
 间接尾递归将不会优化
 ```scala
+def isEven(x: Int): Boolean =
+if (x == 0) true else isOdd(x - 1)
+def isOdd(x: Int): Boolean =
+if (x == 0) false else isEven(x - 1)
 ```
