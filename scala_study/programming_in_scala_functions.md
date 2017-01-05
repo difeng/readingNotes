@@ -231,7 +231,7 @@ someNumbers.filter((x) => x > 0)
 ```scala
 someNumbers.filter(_ > 0)
 ```
-####Partially applied functions
+####函数部分应用(Partially applied functions)
 ####Closure(闭包) 
 
 
