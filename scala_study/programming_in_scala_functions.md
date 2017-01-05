@@ -312,3 +312,4 @@ def printTime(out: java.io.PrintStream = Console.out) =
 out.println("time = "+ System.currentTimeMillis())
 ```
 ####尾递归(tail recursion)
+编译器检测到尾递归时，在用新的值更新完函数参数后，会将尾递归替换为指向函数头的一个jump
