@@ -320,3 +320,5 @@ out.println("time = "+ System.currentTimeMillis())
 
 #####尾递归的限制
 间接尾递归将不会优化
+```scala
+```
