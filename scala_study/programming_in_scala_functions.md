@@ -311,3 +311,4 @@ res28: Float = 10.0
 def printTime(out: java.io.PrintStream = Console.out) =
 out.println("time = "+ System.currentTimeMillis())
 ```
+####尾递归(tail recursion)
