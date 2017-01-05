@@ -282,5 +282,19 @@ scala> addMore(10)
 res17: Int = 11
 ```
 ####特殊函数调用(Special function call forms)
+scala支持重复参数，命名参数，默认参数
+
+Repeated参数
+```scala
+scala> def echo(args: String*) =
+for (arg <- args) println(arg)
+echo: (args: String*)Unit
 
 
+scala> echo()
+scala> echo("one")
+one
+scala> echo("hello", "world!")
+hello
+world!
+```
