@@ -248,6 +248,7 @@ sum: (a: Int,b: Int,c: Int)Int
 scala> sum(1, 2, 3)
 res10: Int = 6
 ```
+
 ```scala
 scala> val a = sum _
 a: (Int, Int, Int) => Int = <function3>
