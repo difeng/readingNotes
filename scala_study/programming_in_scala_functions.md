@@ -255,7 +255,11 @@ a: (Int, Int, Int) => Int = <function3>
 scala> a(1, 2, 3)
 res11: Int = 6
 ```
-
+a变量引用一个函数值对象，这个函数值是一个编译器从sum _自动生成的一个类的实例，这个生成的类
+```scala
+scala> a.apply(1, 2, 3)
+res12: Int = 6
+```
 ####Closure(闭包) 
 
 
