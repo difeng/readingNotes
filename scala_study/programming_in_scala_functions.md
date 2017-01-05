@@ -232,7 +232,14 @@ someNumbers.filter((x) => x > 0)
 someNumbers.filter(_ > 0)
 ```
 ####函数部分应用(Partially applied functions)
-
+例如
+```scala
+someNumbers.foreach(x => println(x))
+```
+可以这样写
+```scala
+someNumbers.foreach(println _)
+```
 ####Closure(闭包) 
 
 
