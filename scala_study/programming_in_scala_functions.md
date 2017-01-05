@@ -306,3 +306,8 @@ speed: (distance: Float,time: Float)Float
 scala> speed(100, 10)
 res28: Float = 10.0
 ```
+默认参数:
+```scala
+def printTime(out: java.io.PrintStream = Console.out) =
+out.println("time = "+ System.currentTimeMillis())
+```
