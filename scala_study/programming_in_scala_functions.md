@@ -272,7 +272,7 @@ scala> b(5)
 res14: Int = 9
 And in this case, b.apply invoked sum(1, 5, 3).
 ```
-####Closure(闭包) 
+####闭包(Closure) 
 ```
 scala> var more = 1
 more: Int = 1
@@ -281,6 +281,6 @@ addMore: (Int) => Int = <function1>
 scala> addMore(10)
 res17: Int = 11
 ```
-
+####特殊函数调用(Special function call forms)
 
 
