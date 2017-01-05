@@ -298,3 +298,11 @@ scala> echo("hello", "world!")
 hello
 world!
 ```
+命名参数
+```scala
+scala> def speed(distance: Float, time: Float): Float =
+distance / time
+speed: (distance: Float,time: Float)Float
+scala> speed(100, 10)
+res28: Float = 10.0
+```
