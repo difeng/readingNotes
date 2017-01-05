@@ -273,6 +273,14 @@ res14: Int = 9
 And in this case, b.apply invoked sum(1, 5, 3).
 ```
 ####Closure(闭包) 
+```
+scala> var more = 1
+more: Int = 1
+scala> val addMore = (x: Int) => x + more
+addMore: (Int) => Int = <function1>
+scala> addMore(10)
+res17: Int = 11
+```
 
 
 
