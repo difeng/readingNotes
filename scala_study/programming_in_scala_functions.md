@@ -248,8 +248,7 @@ sum: (a: Int,b: Int,c: Int)Int
 scala> sum(1, 2, 3)
 res10: Int = 6
 ```
-
-```scala
+scala编译器将会初始化一个函数值，这个函数值将会携带部分应用函数sum _ 省略的三个参数，为新的函数值分配一个引用a
 scala> val a = sum _
 a: (Int, Int, Int) => Int = <function3>
 
