@@ -232,6 +232,7 @@ someNumbers.filter((x) => x > 0)
 someNumbers.filter(_ > 0)
 ```
 ####函数部分应用(Partially applied functions)
+
 ####Closure(闭包) 
 
 
