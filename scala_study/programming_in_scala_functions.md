@@ -260,9 +260,17 @@ a变量引用一个函数值对象，这个函数值是一个编译器从sum _�
 scala> a.apply(1, 2, 3)
 res12: Int = 6
 ```
+diu
 ```scala
 scala> val b = sum(1, _: Int, 3)
 b: (Int) => Int = <function1>
+
+scala> b(2)
+res13: Int = 6
+In this case, b.apply invoked sum(1, 2, 3).
+scala> b(5)
+res14: Int = 9
+And in this case, b.apply invoked sum(1, 5, 3).
 ```
 ####Closure(闭包) 
 
