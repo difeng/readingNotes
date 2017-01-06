@@ -24,3 +24,7 @@ def plainOldSum(x: Int,y: Int) =  x + y
 ```scala
 def plainOldSum(x: Int)(y: Int) = x + y
 ```
+柯里化的过程：
+plainOldSum(x: Int)(y: Int) 
+plainOldSum(1)(2)
+
