@@ -25,11 +25,14 @@ def plainOldSum(x: Int,y: Int) =  x + y
 def plainOldSum(x: Int)(y: Int) = x + y
 ```
 柯里化的过程：
+```scala
 plainOldSum(1)(2)实际过程
-
 相当于：
 val second = plainOldSum(1)_
 second(2)
+```
+
+
 
 
 
