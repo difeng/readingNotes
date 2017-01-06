@@ -15,4 +15,4 @@ def containsOdd(nums: List[Int]): Boolean = {
 ```scala
 def containsOdd(nums: List[Int]) = nums.exists(_ % 2 == 1)
 ```
-####currying
+####柯里化currying)
