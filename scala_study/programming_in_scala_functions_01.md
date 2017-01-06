@@ -32,6 +32,10 @@ val second = plainOldSum(1)_
 second(2)
 ```
 
+```scala
+
+```
+
 
 
 
