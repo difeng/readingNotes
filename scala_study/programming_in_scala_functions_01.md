@@ -13,5 +13,5 @@ def containsOdd(nums: List[Int]): Boolean = {
 ```
 可写为:
 ```scala
-def containsO
+def containsOdd(nums: List[Int]) = nums.exists(_ % 2 == 1)
 ```
