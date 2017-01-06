@@ -42,6 +42,7 @@ second: (Int) => Int = <function1>
 scala> second(2)
 res6: Int = 3
 ```
+写新的控制结构
 
 
 
