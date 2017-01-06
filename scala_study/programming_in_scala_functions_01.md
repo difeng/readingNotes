@@ -11,3 +11,6 @@ def containsOdd(nums: List[Int]): Boolean = {
   exists
 }
 ```
+可写为:
+```scala
+```
