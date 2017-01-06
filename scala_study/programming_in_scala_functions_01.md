@@ -33,7 +33,14 @@ second(2)
 ```
 
 ```scala
+scala> def first(x: Int) = (y: Int) => x + y
+first: (x: Int)(Int) => Int
 
+scala> val second = first(1)
+second: (Int) => Int = <function1>
+
+scala> second(2)
+res6: Int = 3
 ```
 
 
