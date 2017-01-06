@@ -25,6 +25,6 @@ def plainOldSum(x: Int,y: Int) =  x + y
 def plainOldSum(x: Int)(y: Int) = x + y
 ```
 柯里化的过程：
-plainOldSum(x: Int)(y: Int) 
-plainOldSum(1)(2)
+plainOldSum(1)(2)实际过程
+
 
