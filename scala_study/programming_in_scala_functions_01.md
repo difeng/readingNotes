@@ -20,3 +20,7 @@ def containsOdd(nums: List[Int]) = nums.exists(_ % 2 == 1)
 ```scala
 def plainOldSum(x: Int,y: Int) =  x + y
 ```
+柯里化后
+```scala
+def plainOldSum(x: Int)(y: Int) = x + y
+```
