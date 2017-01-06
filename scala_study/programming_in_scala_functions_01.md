@@ -31,7 +31,7 @@ plainOldSum(1)(2)实际过程
 val second = plainOldSum(1)_
 second(2)
 ```
-
+使用first函数来说明
 ```scala
 scala> def first(x: Int) = (y: Int) => x + y
 first: (x: Int)(Int) => Int
