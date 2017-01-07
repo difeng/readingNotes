@@ -115,7 +115,7 @@ def boolAssert(predicate: Boolean) =
     throw new AssertionError
 ```
 boolAssert(x / 0 == 0)抛异常,byNameAssert(x / 0 == 0)不会抛异常
-因为boolAssert(x / 0 == 0)中的表达式会在boolAssert(x / 0 == 0)调用前求值。 而byNameAssert
+因为boolAssert(x / 0 == 0)中的表达式会在boolAssert(x / 0 == 0)调用前求值。 而byNameAssert(x / 0 == 0)中的表达式x / 0 == 0不会求值，而是会产生一个函数值，这个函数值的apply method将会对x / 0 == 0求值。这个函数值将会传递给byNameAssert。
 ```
 boolAssert(x / 0 == 0)
 java.lang.ArithmeticException: / by zero
