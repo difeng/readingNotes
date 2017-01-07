@@ -79,7 +79,23 @@ scala> println("Hello, Word!")
 可写作:
 scala> println { "Hello, Word!" }
 ```
+柯里化后的withPrintWriter
+```scala
+def withPrintWriter(file: File)(op: PrintWriter => Unit) {
+  val writer = new PrintWriter(file)
+  try {
+    op(writer)
+  } finally {
+    writer.close()
+  }
+}
 
+调用
+val file = new File("date.txt")
+withPrintWriter(file) {
+  writer => writer.println(new java.util.Date)
+}
+```
 
 
 
