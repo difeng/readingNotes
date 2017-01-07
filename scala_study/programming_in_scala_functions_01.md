@@ -71,7 +71,16 @@ withPrintWriter(
 )
 ```
 
+使代码更像内建的控制结构，scala中任何仅仅传递一个参数的函数调用都可用大括号代理括号的使用。
 
+```scala
+scala> println("Hello, Word!")
+
+可写作:
+scala> println { "Hello, Word!" }
+
+
+```
 
 
 
