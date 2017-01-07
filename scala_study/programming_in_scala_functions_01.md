@@ -97,6 +97,9 @@ withPrintWriter(file) {
 }
 ```
 ###By-name parameters
-
-
+```scala
+withPrintWriter(file) {
+  writer => writer.println(new java.util.Date)
+}
+```
 
