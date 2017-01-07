@@ -50,6 +50,27 @@ twice: (op: (Double) => Double,x: Double)Double
 scala> twice(_ + 1, 5)
 res9: Double = 7.0
 ```
+loan pattern 模式的使用
+ 
+一个常用的编码模式
+
+打开资源
+
+操作资源
+
+释放资源
+
+例子：
+```scala
+def withPrintWriter(file: File,op: PrintWriter => Unit) {
+  val writer = new PrintWriter(file)
+  try {
+    op(writer)
+  } finally {
+    writer.close()
+  }
+}
+```
 
 
 
