@@ -44,7 +44,9 @@ res6: Int = 3
 ```
 写新的控制结构
 
+两次操作的
 ```scala
+def twice(op: Double => Double,x: Double) = op(op(x))
 ```
 
 
