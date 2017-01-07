@@ -125,6 +125,5 @@ at RequestResult$.<init>(<console>:9)
 at RequestResult$.<clinit>(<console>)
 
 byNameAssert(x / 0 == 0)
-
 ```
 
