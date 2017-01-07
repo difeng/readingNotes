@@ -72,6 +72,9 @@ def withPrintWriter(file: File,op: PrintWriter => Unit) {
 }
 
 调用方式
+withPrintWriter(
+  new File("date.txt")
+)
 ```
 
 
