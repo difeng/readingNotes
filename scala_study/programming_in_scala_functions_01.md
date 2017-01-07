@@ -45,7 +45,10 @@ res6: Int = 3
 ####9.3 写新的控制结构
 两次操作的控制结构
 ```scala
-def twice(op: Double => Double,x: Double) = op(op(x))
+scala> def twice(op: Double => Double, x: Double) = op(op(x))
+twice: (op: (Double) => Double,x: Double)Double
+scala> twice(_ + 1, 5)
+res9: Double = 7.0
 ```
 
 
