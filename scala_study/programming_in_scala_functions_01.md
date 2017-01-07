@@ -97,6 +97,7 @@ withPrintWriter(file) {
 }
 ```
 ###By-name parameters
+例如下面函数中的参数“writer =>” 
 ```scala
 withPrintWriter(file) {
   writer => writer.println(new java.util.Date)
