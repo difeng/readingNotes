@@ -43,7 +43,7 @@ scala> second(2)
 res6: Int = 3
 ```
 ####9.3 写新的控制结构
-两次操作的
+两次操作的控制结构
 ```scala
 def twice(op: Double => Double,x: Double) = op(op(x))
 ```
