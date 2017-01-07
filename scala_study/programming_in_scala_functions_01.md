@@ -70,7 +70,10 @@ def withPrintWriter(file: File,op: PrintWriter => Unit) {
     writer.close()
   }
 }
+
+调用方式
 ```
+
 
 
 
