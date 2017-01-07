@@ -4,7 +4,7 @@
 
 ###抽象类
 scala中抽象类中的抽象方法不需要加abstract修饰，只要方法不实现就行。
-```
+```scala
 abstract class Element { 
   def contents: Array[String]
 }
