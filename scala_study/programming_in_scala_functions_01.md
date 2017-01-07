@@ -106,11 +106,9 @@ withPrintWriter(file) {
 ```scala
 var assertionsEnabled = false
 
-
 def byNameAssert(predicate: => Boolean) =
   if (assertionsEnabled && !predicate)
     throw new AssertionError
-
 
 def boolAssert(predicate: Boolean) =
   if (assertionsEnabled && !predicate)
