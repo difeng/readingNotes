@@ -103,4 +103,8 @@ withPrintWriter(file) {
   writer => writer.println(new java.util.Date)
 }
 ```
-
+```scala
+def byNameAssert(predicate: => Boolean) =
+if (assertionsEnabled && !predicate)
+throw new AssertionError
+```
