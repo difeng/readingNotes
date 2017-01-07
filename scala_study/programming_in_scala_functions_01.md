@@ -78,8 +78,6 @@ scala> println("Hello, Word!")
 
 可写作:
 scala> println { "Hello, Word!" }
-
-
 ```
 
 
