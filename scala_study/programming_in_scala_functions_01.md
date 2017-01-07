@@ -15,7 +15,7 @@ def containsOdd(nums: List[Int]): Boolean = {
 ```scala
 def containsOdd(nums: List[Int]) = nums.exists(_ % 2 == 1)
 ```
-####柯里化currying)
+####9.2柯里化currying)
 未柯里化前
 ```scala
 def plainOldSum(x: Int,y: Int) =  x + y
