@@ -104,6 +104,9 @@ withPrintWriter(file) {
 }
 ```
 ```scala
+var assertionsEnabled = false
+
+
 def byNameAssert(predicate: => Boolean) =
 if (assertionsEnabled && !predicate)
 throw new AssertionError
@@ -113,20 +116,17 @@ def boolAssert(predicate: Boolean) =
 if (assertionsEnabled && !predicate)
 throw new AssertionError
 ```
-boolAssert(x / 0 == 0)抛异常
-```
-var assertionsEnabled = false
+boolAssert(x / 0 == 0)抛异常,byNameAssert(x / 0 == 0)不会抛异常
 
-boolAssert(x / 0 == 0)抛异常
+```
+boolAssert(x / 0 == 0)
 java.lang.ArithmeticException: / by zero
 at .<init>(<console>:9)
 at .<clinit>(<console>)
 at RequestResult$.<init>(<console>:9)
 at RequestResult$.<clinit>(<console>)
-```
-byNameAssert(x / 0 == 0)不会抛异常
+
+byNameAssert(x / 0 == 0)
 
 ```
-byNameAssert(x / 0 == 0)不会抛异常
 
-```
