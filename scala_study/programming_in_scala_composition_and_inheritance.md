@@ -17,3 +17,4 @@ abstract class Element {
 ###实现sbave，bedide，和toString
 ###定义一个工厂对象
 ##12.特质（Trait）
+
