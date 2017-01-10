@@ -10,3 +10,4 @@ abstract class Element {
 }
 ```
 ###多态和动态绑定
+使用final修饰的成员不可被子类重写
