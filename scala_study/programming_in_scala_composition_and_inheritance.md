@@ -14,4 +14,5 @@ abstract class Element {
 ###定义final的成员
 使用final修饰的成员不可被子类重写
 ###使用组合和继承
+###实现sbave，bedide，和toString
 ###定义一个工厂对象
