@@ -18,3 +18,6 @@ abstract class Element {
 ###定义一个工厂对象
 ##12.特质（Trait）
 trait可以使用extends或者with混合进一个类中。
+
+trait可以extends父trait
+
