@@ -9,4 +9,4 @@ abstract class Element {
   def contents: Array[String]
 }
 ```
-
+###多态和动态绑定
