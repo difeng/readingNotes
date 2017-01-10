@@ -20,4 +20,4 @@ abstract class Element {
 trait可以使用extends或者with混合进一个类中。
 
 trait可以extends父trait
-
+##13.scala的类体系架构
