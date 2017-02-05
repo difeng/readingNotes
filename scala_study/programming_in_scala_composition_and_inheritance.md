@@ -23,3 +23,15 @@ trait可以extends父trait
 ##13.scala的类体系架构
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/class-hierarchy-of-scala.png)
+
+最顶层的是类Any,Any定义了如下方法
+```scala
+final def ==(that: Any): Boolean
+final def !=(that: Any): Boolean
+def equals(that: Any): Boolean
+def ##: Int
+def hashCode: Int
+def toString: String
+```
+
+Any类有两个子类AnyVal和AnyRef
