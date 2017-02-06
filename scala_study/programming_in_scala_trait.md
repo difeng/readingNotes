@@ -59,6 +59,7 @@ trait Filtering extends IntQueue {
   }
 }
 ```
+调用顺序是从右向左
 ```scala
 scala> val queue = (new BasicIntQueue
 with Filtering with Incrementing)
