@@ -35,4 +35,9 @@ def toString: String
 ```
 
 Any类有两个子类AnyVal和AnyRef，AnyVal是scala中每一个内建值类型的父类型，scala中有九种值类型：Byte,Short,Char,Int,Long,Float,Double,Boolean,Unit
-前八个是java的基本数据类型，而且它们的值以java的基本类型重现于java的运行时。
+前八个是java的基本数据类型，而且它们的值以java的基本类型重现于java的运行时。Unit对应java的void类型。
+
+Bottom types
+在继承层次的最底层可以看到两个类型scala.Null和scala.Nothing。类Null是所有引用类的子类。Null不与值类型兼容。例如不能赋值给一个Integer变量。
+
+类型Nothing在scala类层次的非常最底层，是每一个其它类型的子类型。没有该来类型的任何值。
