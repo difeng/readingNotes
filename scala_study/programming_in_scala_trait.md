@@ -30,6 +30,48 @@ trait也定义了一个类型。
 Ordered trait
 比较两个同类型的有序对象时，可以让该类型extends ordered trait并实现compare方法。
 
+```scala
+abstract class IntQueue {
+  def get(): Int
+  def put(x: Int)
+}
+
+import scala.collection.mutable.ArrayBuffer
+class BasicIntQueue extends IntQueue {
+   private val buf = new ArrayBuffer[Int]
+   def get(): Int = buf.remove(0)
+   def put(x: Int) { buf += x }
+}
+
+trait Doubling extends IntQueue {
+  abstract override def put(x: Int) { super.put(2 * x) }
+}
+
+class MyQueue extends BasicIntQueue with Doubling
+
+trait Incrementing extends IntQueue {
+  abstract override def put(x: Int) { super.put(x + 1) }
+}
+
+trait Filtering extends IntQueue {
+  abstract override def put(x: Int) {
+    if (x >= 0) super.put(x)
+  }
+}
+```
+```scala
+scala> val queue = (new BasicIntQueue
+with Filtering with Incrementing)
+queue: BasicIntQueue with Filtering with Incrementing...
+scala> queue.put(-1); queue.put(0); queue.put(1)
+scala> queue.get()
+res17: Int = 0
+scala> queue.get()
+res18: Int = 1
+scala> queue.get()
+res19: Int = 2
+```
+
 
 
 
