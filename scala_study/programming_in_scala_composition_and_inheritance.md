@@ -42,3 +42,5 @@ Bottom types
 
 类型Nothing在scala类层次的非常最底层，是每一个其它类型的子类型。没有该类型的任何值。
 
+
+
