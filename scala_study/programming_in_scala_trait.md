@@ -22,3 +22,10 @@ class Frog extends Philosophical {
 }
 ```
 使用trait的方法就像使用从父类继承的类的方法一样。
+
+trait也定义了一个类型。
+
+薄接口和父接口，trait的主要作用是自动地添加方法到一个类中。trait可以使薄接口变成富接口。
+
+
+
