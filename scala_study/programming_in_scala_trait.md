@@ -4,3 +4,12 @@ trait是scala中代码重用的最基础的单元。trait封装方法和域的�
 扩大薄接口为富接口。定义可堆叠的修改。
 
 ###Trait如何工作
+
+trait定义：
+```scala
+trait Philosophical {
+  def philosophize() {
+    println("I consume memory,therefore I am!")
+  }
+}
+```
