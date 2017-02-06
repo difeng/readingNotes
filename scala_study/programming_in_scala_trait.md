@@ -18,6 +18,6 @@ trait Philosophical {
 trait可以使用extends或者with关键字混合进一个类中。
 ```scala
 class Frog extends Philosophical {
-override def toString = "green"
+  override def toString = "green"
 }
 ```
