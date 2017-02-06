@@ -27,6 +27,9 @@ trait也定义了一个类型。
 
 薄接口和父接口，trait的主要作用是自动地添加方法到一个类中。trait可以使薄接口变成富接口。
 
+Ordered trait
+比较两个同类型的有序对象时，可以让该类型extends ordered trait并实现compare方法。
+
 
 
 
