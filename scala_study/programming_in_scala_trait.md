@@ -13,3 +13,11 @@ trait Philosophical {
   }
 }
 ```
+此trait的名字是Philosophical。它有默认的父类型AnyRef。它定义了一个具体的方法philosophize。
+
+trait可以使用extends或者with关键字混合进一个类中。
+```scala
+class Frog extends Philosophical {
+override def toString = "green"
+}
+```
