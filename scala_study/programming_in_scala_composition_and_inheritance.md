@@ -35,4 +35,4 @@ def toString: String
 ```
 
 Any类有两个子类AnyVal和AnyRef，AnyVal是scala中每一个内建值类型的父类型，scala中有九种值类型：Byte,Short,Char,Int,Long,Float,Double,Boolean,Unit
-前八个是java的基本数据类型，而且它们的值以java的基本类型重现与java的运行时。
+前八个是java的基本数据类型，而且它们的值以java的基本类型重现于java的运行时。
