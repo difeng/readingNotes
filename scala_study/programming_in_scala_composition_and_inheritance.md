@@ -40,4 +40,4 @@ Any类有两个子类AnyVal和AnyRef，AnyVal是scala中每一个内建值类型
 Bottom types
 在继承层次的最底层可以看到两个类型scala.Null和scala.Nothing。类Null是所有引用类的子类。Null不与值类型兼容。例如不能赋值给一个Integer变量。
 
-类型Nothing在scala类层次的非常最底层，是每一个其它类型的子类型。没有该来类型的任何值。
+类型Nothing在scala类层次的非常最底层，是每一个其它类型的子类型。没有该类型的任何值。
