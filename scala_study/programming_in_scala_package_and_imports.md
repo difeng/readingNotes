@@ -26,5 +26,5 @@ package bobsrockets {
  }
 }
 ```
-import语句可以出现在任何地方
+import语句可以出现在任何地方出现。
 
