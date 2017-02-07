@@ -15,6 +15,7 @@ abstract class Element {
 使用final修饰的成员不可被子类重写
 ###使用组合和继承
 ###实现sbove，beside，和toString
+
 ###定义一个工厂对象
 ##scala的类体系架构
 
