@@ -41,3 +41,5 @@ class Outer {
   (new Inner).f() // error: f is not accessible
 }
 ```
+
+Protected 成员
