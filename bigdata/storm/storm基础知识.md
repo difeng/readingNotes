@@ -1,4 +1,4 @@
-###Storm总体结构
+##1.Storm总体结构
 
 * Stream是被处理的数据
 * Spout是数据源
@@ -20,7 +20,7 @@ Storm在zookeeper中的元数据
 Storm在zookeeper中的元数据的交互
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_metadata_use.png)
 
-Storm中的一些基础概念
+##2.Storm中的一些基础概念
 
 ###1.Fields定义
 Fields用于存储消息的字段名列表，其所需参数为其所有字段名集合。
@@ -35,3 +35,5 @@ InputDeclarer，可级联使用。
 OutputFieldsDeclarer
 组件声明接口
 SpoutDeclarer和BoltDeclarer
+
+
