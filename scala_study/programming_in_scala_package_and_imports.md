@@ -28,3 +28,16 @@ package bobsrockets {
 ```
 import语句可以出现在任何地方出现
 
+访问修饰：
+private
+```scala
+class Outer {
+  class Inner {
+    private def f() { println("f") }
+    class InnerMost {
+      f() // OK
+    }
+  } 
+  (new Inner).f() // error: f is not accessible
+}
+```
