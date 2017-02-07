@@ -58,3 +58,5 @@ package p {
   }
 }
 ```
+
+public members
