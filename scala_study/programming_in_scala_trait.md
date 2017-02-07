@@ -72,6 +72,9 @@ res18: Int = 1
 scala> queue.get()
 res19: Int = 2
 ```
+什么时候使用trait
+
+当行为可以在多个毫不相关的类中重用的使用可以使用trait，因为只有trait可以被混合进类的不同部分中去。
 
 
 
