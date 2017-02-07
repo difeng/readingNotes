@@ -35,5 +35,13 @@ InputDeclarer，可级联使用。
 OutputFieldsDeclarer
 组件声明接口
 SpoutDeclarer和BoltDeclarer
+###4.Spout输出收集器
+###5.Bolt输出收集器
+###6.组件接口
+
+
+
+
+
 
 
