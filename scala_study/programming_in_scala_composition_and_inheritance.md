@@ -16,7 +16,6 @@ abstract class Element {
 ###使用组合和继承
 ###实现sbove，beside，和toString
 ###定义一个工厂对象
-
 ##scala的类体系架构
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/class-hierarchy-of-scala.png)
