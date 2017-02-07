@@ -21,7 +21,7 @@ package bobsrockets {
     class Navigator
     package tests {
     // In package bobsrockets.navigation.tests
-    lass NavigatorSuite
+    class NavigatorSuite
     }
  }
 }
