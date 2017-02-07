@@ -11,4 +11,5 @@
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_structure.png)
 
 Storm中消息来源节点被称为Spout，消息处理节点被称为Bolt。在系统中可存在多个Spout和Bolt
+
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_spout_bolt.png)
