@@ -43,6 +43,8 @@ class Outer {
 ```
 
 Protected
+
+scala 中访问Protected成员比java中更为严格，scala中一个protected成员只能被其子类访问。
 ```scala
 package p {
   class Super {
