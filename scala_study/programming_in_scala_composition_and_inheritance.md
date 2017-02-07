@@ -16,11 +16,11 @@ abstract class Element {
 ###使用组合和继承
 ###实现sbave，bedide，和toString
 ###定义一个工厂对象
-##12.特质（Trait）
+##特质（Trait）
 trait可以使用extends或者with混合进一个类中。
 
 trait可以extends父trait
-##13.scala的类体系架构
+##scala的类体系架构
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/class-hierarchy-of-scala.png)
 
