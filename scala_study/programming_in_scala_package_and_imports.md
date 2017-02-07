@@ -59,3 +59,4 @@ package p {
 }
 ```
 public members
+public修饰的成员，任何地方都可以访问
