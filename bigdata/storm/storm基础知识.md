@@ -22,5 +22,7 @@ Storm在zookeeper中的元数据的交互
 
 Storm中的一些基础概念
 
-Fields定义
-Fields用于存储消息的字段名列表
+1.Fields定义
+Fields用于存储消息的字段名列表，其所需参数为其所有字段名集合。
+2.Tuple接口
+
