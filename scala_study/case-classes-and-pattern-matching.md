@@ -27,4 +27,11 @@ expr match {
 ###构造器模式
 构造器模式是模式匹配变得更加强大。
 
+###元组模式
+def tupleDemo(expr: Any) =
+expr match {
+case (a, b, c) => println("matched "+ a + b + c)
+case _ =>
+}
+
 
