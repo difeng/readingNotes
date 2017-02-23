@@ -18,3 +18,9 @@ def describe(x: Any) = x match {
 
 ###变量模式
 变量模式可以匹配任何对象，就像一个通配符一样。
+```scala
+expr match {
+  case 0 => "zero"
+  case somethingElse => "not zero: "+ somethingElse
+}
+```
