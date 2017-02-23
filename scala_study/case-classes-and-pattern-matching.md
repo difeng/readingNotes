@@ -5,3 +5,13 @@
 
 ###常量模式
 常量只可以匹配自己本身。任何字面量可以用作常量。
+如下:
+```scala
+def describe(x: Any) = x match {
+case 5 => "five"
+case true => "truth"
+case "hello" => "hi!"
+case Nil => "the empty list"
+case _ => "something else"
+}
+```
