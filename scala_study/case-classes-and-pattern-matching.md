@@ -35,4 +35,10 @@ def tupleDemo(expr: Any) =
 }
 
 ###类型匹配(Typed patterns)
-
+```scala
+def generalSize(x: Any) = x match {
+  case s: String => s.length
+  case m: Map[_, _] => m.size
+  case _ => -1
+}
+```
