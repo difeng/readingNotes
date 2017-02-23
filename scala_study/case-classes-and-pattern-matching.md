@@ -45,3 +45,5 @@ def generalSize(x: Any) = x match {
 }
 ```
 ###变量绑定(variable binding)
+
+###模式保护(pattern guards)
