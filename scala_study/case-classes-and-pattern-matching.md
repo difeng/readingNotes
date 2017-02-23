@@ -33,5 +33,5 @@ def tupleDemo(expr: Any) =
   case (a, b, c) => println("matched "+ a + b + c)
   case _ =>
 }
-
+###类型匹配(Typed patterns)
 
