@@ -24,4 +24,7 @@ expr match {
   case somethingElse => "not zero: "+ somethingElse
 }
 ```
+###构造器模式
+
+
 
