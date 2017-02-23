@@ -29,9 +29,9 @@ expr match {
 
 ###元组模式
 def tupleDemo(expr: Any) =
-expr match {
-case (a, b, c) => println("matched "+ a + b + c)
-case _ =>
+  expr match {
+  case (a, b, c) => println("matched "+ a + b + c)
+  case _ =>
 }
 
 
