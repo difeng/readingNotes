@@ -15,3 +15,5 @@ def describe(x: Any) = x match {
   case _ => "something else"
 }
 ```
+
+###变量模式
