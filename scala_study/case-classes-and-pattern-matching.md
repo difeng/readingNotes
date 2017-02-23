@@ -44,3 +44,4 @@ def generalSize(x: Any) = x match {
   case _ => -1
 }
 ```
+###变量绑定(variable binding)
