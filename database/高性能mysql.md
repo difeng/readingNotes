@@ -13,3 +13,5 @@ mysql逻辑架构图:
 
 使用explain查看优化器的优化过程，可通过重构查询和schema、修改配置来调优sql使之可能高效运行。
 
+
+对于select语句，在解析查询之前会先检查查询缓存(Query Cache)
