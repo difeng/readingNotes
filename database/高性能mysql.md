@@ -31,4 +31,4 @@ mysql逻辑架构图:
   REPEATABLE READ(可重复读)
   SERIALIZABLE(可串行化)
   
-![](http://7xawio.com1.z0.glb.clouddn.com/mysql_1_%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![](http://7xawio.com1.z0.glb.clouddn.com/mysql_1_%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB.png)
