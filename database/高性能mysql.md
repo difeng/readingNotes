@@ -32,3 +32,9 @@ mysql逻辑架构图:
   SERIALIZABLE(可串行化)
   
 ![](http://7xawio.com1.z0.glb.clouddn.com/mysql_1_%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB.png)
+
+死锁
+
+
+
+
