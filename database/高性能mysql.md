@@ -28,3 +28,5 @@ mysql逻辑架构图:
 隔离级别
   READ UNCOMMITTED(未提交读)
   READ COMMITTED(提交读)
+  REPEATABLE READ(可重复读)
+  SERIALIZABLE(可串行化)
