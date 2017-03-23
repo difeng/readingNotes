@@ -37,7 +37,11 @@ res12: java.lang.String = strange math? Pi =
 ```
 ###构造器模式
 构造器模式是模式匹配变得更加强大。
-
+```scala
+expr math {
+  case BinOp("+" ,e,Number(0)) => println("a deep match")
+}
+```
 ###元组模式
 ```scala
 def tupleDemo(expr: Any) =
