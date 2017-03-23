@@ -24,6 +24,17 @@ expr match {
   case somethingElse => "not zero: "+ somethingElse
 }
 ```
+
+小写字母的变量会使用变量模式，其他引用会当做常量模式。
+```scala
+scala> val pi = math.Pi
+pi: Double = 3.141592653589793
+scala> E match {
+case pi => "strange math? Pi = "+ pi
+}
+res12: java.lang.String = strange math? Pi =
+2.718281828459045
+```
 ###构造器模式
 构造器模式是模式匹配变得更加强大。
 
