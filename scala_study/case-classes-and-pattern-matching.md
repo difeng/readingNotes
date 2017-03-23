@@ -40,6 +40,7 @@ res12: java.lang.String = strange math? Pi =
 ```scala
 expr math {
   case BinOp("+" ,e,Number(0)) => println("a deep match")
+  case _ =>
 }
 ```
 ###元组模式
