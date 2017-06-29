@@ -1,6 +1,6 @@
-##9.控制抽象(Control Abstraction)
-###9.1减少重复代码
-####高阶函数可以将函数作为参数传递
+## 9.控制抽象(Control Abstraction)
+### 9.1减少重复代码
+#### 高阶函数可以将函数作为参数传递
 例如
 ```scala
 def containsOdd(nums: List[Int]): Boolean = {
@@ -15,7 +15,7 @@ def containsOdd(nums: List[Int]): Boolean = {
 ```scala
 def containsOdd(nums: List[Int]) = nums.exists(_ % 2 == 1)
 ```
-####9.2柯里化currying)
+#### 9.2柯里化currying)
 未柯里化前
 ```scala
 def plainOldSum(x: Int,y: Int) =  x + y
@@ -42,7 +42,7 @@ second: (Int) => Int = <function1>
 scala> second(2)
 res6: Int = 3
 ```
-####9.3 写新的控制结构
+#### 9.3 写新的控制结构
 两次操作的控制结构
 ```scala
 scala> def twice(op: Double => Double, x: Double) = op(op(x))
@@ -96,7 +96,7 @@ withPrintWriter(file) {
   writer => writer.println(new java.util.Date)
 }
 ```
-###By-name parameters
+### By-name parameters
 例如下面函数中的参数“writer =>” 
 ```scala
 withPrintWriter(file) {
