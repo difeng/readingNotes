@@ -1,9 +1,9 @@
-##模式的种类(Kinds of patterns)
-###通配符模式
+## 模式的种类(Kinds of patterns)
+### 通配符模式
 通配符模式(_)可以匹配任何对象。
 通配符可以用来忽略你不关心的对象的部分。
 
-###常量模式
+### 常量模式
 常量只可以匹配自己本身。任何字面量可以用作常量。
 如下:
 ```scala
@@ -16,7 +16,7 @@ def describe(x: Any) = x match {
 }
 ```
 
-###变量模式
+### 变量模式
 变量模式可以匹配任何对象，就像一个通配符一样。
 ```scala
 expr match {
@@ -35,7 +35,7 @@ case pi => "strange math? Pi = "+ pi
 res12: java.lang.String = strange math? Pi =
 2.718281828459045
 ```
-###构造器模式
+### 构造器模式
 构造器模式是模式匹配变得更加强大。
 ```scala
 expr math {
@@ -43,7 +43,7 @@ expr math {
   case _ =>
 }
 ```
-###元组模式
+### 元组模式
 ```scala
 def tupleDemo(expr: Any) =
   expr match {
@@ -52,7 +52,7 @@ def tupleDemo(expr: Any) =
 }
 ```
 
-###类型匹配(Typed patterns)
+### 类型匹配(Typed patterns)
 ```scala
 def generalSize(x: Any) = x match {
   case s: String => s.length
@@ -60,13 +60,13 @@ def generalSize(x: Any) = x match {
   case _ => -1
 }
 ```
-###变量绑定(variable binding)
+### 变量绑定(variable binding)
 
-###模式保护(pattern guards)
+### 模式保护(pattern guards)
 
-###模式重叠(pattern overlaps)
+### 模式重叠(pattern overlaps)
 
-##守卫模式(Pattern guards)
+## 守卫模式(Pattern guards)
 
 
 
