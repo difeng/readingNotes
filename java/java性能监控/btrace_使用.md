@@ -1,9 +1,9 @@
-#java性能监控工具Btrace的使用
+# java性能监控工具Btrace的使用
 
-###1.btrace的简介
+### 1.btrace的简介
 BTrace是java平台上一种安全的，动态的跟踪工具。BTrace可用于动态跟踪运行中的Java程序。Btrace可以在目标程序的字节码中中注入跟踪代码(字节码跟踪)。
 
-###2.btrace的安装（以linux平台为例）
+### 2.btrace的安装（以linux平台为例）
 去Btrace的官网下载Btrace安装包btrace-bin.tar.gz，这里下的是1.2.5.1的版本
 ```shell
 [root@localhost ~]# wget https://kenai.com/projects/btrace/downloads/download/releases/release-1.2.5.1/btrace-bin.tar.gz
@@ -58,7 +58,7 @@ class CaseObject{
 	}
 }
 ```
-###4.写监控脚本
+### 4.写监控脚本
 a.获取类CaseObject的方法exute调用时传的参数，返回值。
 ```java
 import static com.sun.btrace.BTraceUtils.*;
@@ -101,7 +101,7 @@ import static com.sun.btrace.BTraceUtils.*;
     }
 }
 ```
-###5.运行监控脚本
+### 5.运行监控脚本
 a.编译被监测程序
 ```shell
 [root@localhost demo]# javac com/Case1.java 
