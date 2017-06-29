@@ -66,7 +66,7 @@ def generalSize(x: Any) = x match {
 
 ### 模式重叠(pattern overlaps)
 
-## 守卫模式(Pattern guards)
+### 守卫模式(Pattern guards)
 
 
 
