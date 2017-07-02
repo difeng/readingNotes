@@ -11,6 +11,8 @@
 
 $$ \rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
 $$ \overline{X}$$
-$$ \sideset{}{_{xy}}r=\frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum\sideset{}{^2}{(x-\overline{x})}}}$$
+$$ \sideset{}{_{xy}}r=\frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum\sideset{}{^2}{(x-\overline{x})}}
+\sum\sideset{}{^2}{(x-\overline{x})}}
+}$$
 
 
