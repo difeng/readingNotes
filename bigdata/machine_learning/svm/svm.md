@@ -16,6 +16,6 @@ $$ K(X_i,X_j)=(X_i*X_j + 1)^2$$
 
 $$ \rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
 
-$$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum\sideset{}{^2}{(x-\overline{x})} \sum\sideset{}{^2}{(y-\overline{y})} } }$$
+$$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } }$$
 
 
