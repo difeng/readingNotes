@@ -3,7 +3,7 @@
 常用核函数(kernel functions)
 
 h度多项式核函数(polynomial of degree h): 
-$$ K(X_i,X_j)=(X_i*X_j + 1)^2$$
+$$ K(X_i,X_j)=(X_i \cdot X_j + 1)^h$$
 
 ##皮尔逊相关系数(Person Correlation Coefficient)
 衡量两个线性相关度的量
