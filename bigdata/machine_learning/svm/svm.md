@@ -45,10 +45,12 @@ $$ K(X_i,X_j)=tanh(\kappa X_i \cdot X_j - \sigma) $$
 
 计算公式:
 $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
+
 ![](http://latex.codecogs.com/gif.latex?\\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}})
 
 $$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } } $$
-![](http://latex.codecogs.com/gif.latex?\\\sideset{}{_{xy}}r= \frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum{(x-\overline{x})^2}\sum{(y-\overline{y})^2}} })
+
+![](http://latex.codecogs.com/gif.latex?\\\sideset{}{_{xy}}r= \frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum{(x-\overline{x})^2}\sum{(y-\overline{y})^2}}})
 
 
 ## SVM扩展可解决多个类别分类问题
