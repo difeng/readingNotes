@@ -9,6 +9,7 @@
 
 计算公式:
 
+
 $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
 
 
