@@ -42,7 +42,7 @@ $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
 $$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } } $$
 
 
-![](http://latex.codecogs.com/gif.latex?K(X_i,X_j)=(X_i \cdot X_j + 1)^h)
+![](http://latex.codecogs.com/gif.latex?\\K(X_i,X_j)=(X_i \cdot X_j + 1)^h)
 
 
 ## SVM扩展可解决多个类别分类问题
