@@ -17,13 +17,13 @@
 
 h度多项式核函数(polynomial of degree h): 
 $$ K(X_i,X_j)=(X_i \cdot X_j + 1)^h $$
-
+![](http://latex.codecogs.com/gif.latex?\\K(X_i,X_j)=(X_i \cdot X_j + 1)^h)
 高斯径向基核函数(Gaussian radial basis function kernel):
 $$ K(X_i,X_j)=e^{-{||x_i-X_j||}^2/2\sigma^2}$$
-
+![](http://latex.codecogs.com/gif.latex?\\K(X_i,X_j)=e^{-{||x_i-X_j||}^2/2\sigma^2})
 S型核函数(Sigmoid function kernel):
 $$ K(X_i,X_j)=tanh(\kappa X_i \cdot X_j - \sigma) $$
-
+![](http://latex.codecogs.com/gif.latex?\\K(X_i,X_j)=tanh(\kappa X_i\cdot X_j-\sigma))
 如何选择使用哪一个kernel?
 通常，比如图像分类，使用RBF，文字不使用RBF
 尝试不同的kernel，根据结果准确度而定
@@ -36,13 +36,11 @@ $$ K(X_i,X_j)=tanh(\kappa X_i \cdot X_j - \sigma) $$
 正向相关:>0,负向相关：<0,无相关性:=0
 
 计算公式:
-
 $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
+![](http://latex.codecogs.com/gif.latex?\\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}})
 
 $$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } } $$
-
-
-![](http://latex.codecogs.com/gif.latex?\\K(X_i,X_j)=(X_i \cdot X_j + 1)^h)
+![](http://latex.codecogs.com/gif.latex?\\\sideset{}{_{xy}}r= \frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum{(x-\overline{x})^2}\sum{(y-\overline{y})^2}} })
 
 
 ## SVM扩展可解决多个类别分类问题
