@@ -1,3 +1,4 @@
+##svm算法特点
 ##核函数
 
 常用核函数(kernel functions)
