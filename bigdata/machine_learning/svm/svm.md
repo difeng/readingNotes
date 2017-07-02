@@ -40,4 +40,8 @@ $$ \rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
 
 $$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } }$$
 
+##SVM扩展可解决多个类别分类问题
+对于每个类，有一个当前类和其他类的二类分类器（one-vs-rest)
+
+
 
