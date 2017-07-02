@@ -11,8 +11,9 @@ $$ K(X_i,X_j)=e^{-{||x_i-X_j||}^2/2\sigma^2}$$
 S型核函数(Sigmoid function kernel):
 $$ K(X_i,X_j)=tanh(\kappa X_i \cdot X_j - \sigma)$$
 
-
-
+如何选择使用哪一个kernel?
+通常，比如图像分类，使用RBF，文字不使用RBF
+尝试不同的kernel，根据结果准确度而定
 ##皮尔逊相关系数(Person Correlation Coefficient)
 衡量两个线性相关度的量
 
