@@ -11,4 +11,4 @@
 
 $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
 
-$$\frac{\sqrt[3]{X}}{123333}$$
+
