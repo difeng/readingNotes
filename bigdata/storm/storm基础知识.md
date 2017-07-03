@@ -36,6 +36,8 @@ OutputFieldsDeclarer
 组件声明接口
 SpoutDeclarer和BoltDeclarer
 ###4.Spout输出收集器
+输出收集器的接口ISpoutOutputCollector
+默认实现SpoutOutputCollector
 ###5.Bolt输出收集器
 ###6.组件接口
 ###7.Spout接口
