@@ -19,6 +19,7 @@ Storm在zookeeper中的元数据
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_metadata.png)
 Storm在zookeeper中的元数据的交互
+
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_metadata_use.png)
 
 ## 2.Storm中的一些基础概念
