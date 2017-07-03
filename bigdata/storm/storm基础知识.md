@@ -109,7 +109,14 @@ Bolt中包含两个成员：
 * 一些Bolt
 * 一些StateSpoutSpec
 
-
+#### TopologySummary
+描述Topology的基本情况
+* id
+* 名称name
+* task个数
+* worker个数
+* uptime_secs
+* 状态
 
 
 
