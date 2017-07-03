@@ -142,4 +142,6 @@ Bolt中包含两个成员：
  
 #### SpoutStats
 用于Spout的运行统计
-
+* acked
+* failed
+* complete_ms_avg
