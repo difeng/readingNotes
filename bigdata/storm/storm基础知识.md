@@ -59,3 +59,5 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 * IRichBolt
 * IBasicBolt
 * IBatchBolt
+
+Bolt是storm中的基础运行单位
