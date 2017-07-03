@@ -134,6 +134,12 @@ Bolt中包含两个成员：
 #### BoltStats
  用于Bolt的运行统计
  
+ * acked
+ * failed
+ * process_ms_avg
+ * executed
+ * execute_ms_avg
+ 
 #### SpoutStats
 用于Spout的运行统计
 
