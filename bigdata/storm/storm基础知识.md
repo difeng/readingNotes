@@ -53,6 +53,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 ###7.Spout接口
 * ISpout
 * IRichSpout:同时实现了ISpout和IComponent接口
+
 ###8.Bolt接口
 IBolt
 IRichBolt
