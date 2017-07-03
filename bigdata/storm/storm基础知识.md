@@ -118,6 +118,13 @@ Bolt中包含两个成员：
 * uptime_secs
 * 状态
 
+#### SupervisorSummary
+描述了每一个Supervisor的基本信息
 
+* 主机信息 host
+* worker的个数
+* 已经使用的worker的个数
+* id
+* uptime_secs
 
 
