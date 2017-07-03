@@ -49,6 +49,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 组件接口IComponent定义了如下两个方法
 * declareOutputFields方法：用于定义组件的Schema
 * getComponentConfiguration方法:用来描述一些与组件相关的配置
+
 ###7.Spout接口
 * ISpout
 * IRichSpout:同时实现了ISpout和IComponent接口
