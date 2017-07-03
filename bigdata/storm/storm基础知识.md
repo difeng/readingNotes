@@ -18,6 +18,7 @@ Storm中消息来源节点被称为Spout，消息处理节点被称为Bolt。在
 Storm在zookeeper中的元数据
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_metadata.png)
+
 Storm在zookeeper中的元数据的交互
 
 ![](http://7xawio.com1.z0.glb.clouddn.com/storm_metadata_use.png)
