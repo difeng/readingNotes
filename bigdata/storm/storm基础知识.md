@@ -127,4 +127,13 @@ Bolt中包含两个成员：
 * id
 * uptime_secs
 
+#### ClusterSummary
+* 集群中的Supervisor的个数及其基本信息
+* 集群上运行的Topology的基本信息
+
+#### BoltStats
+ 用于Bolt的运行统计
+ 
+#### SpoutStats
+用于Spout的运行统计
 
