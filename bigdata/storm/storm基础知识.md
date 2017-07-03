@@ -44,6 +44,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 * IRichBolt：使用OutputCollector输出收集器，该收集器实现的是IoutputCollector接口
 * IBasicBolt:使用BasicOutputCollector输出收集器，实现的是IBasicOutputCollector
 * IBatchBolt:使用BatchOutputCollector
+
 ###6.组件接口
 组件接口IComponent定义了如下两个方法
 * declareOutputFields方法：用于定义组件的Schema
