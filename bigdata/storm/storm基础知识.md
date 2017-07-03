@@ -63,7 +63,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 * IRichBolt：常用来定义Topology组件接口。灵活可控制Ack、Fail和Anchor操作
 * IBasicBolt：简单逻辑的Topology组件接口，Storm内置实现了Ack、Fail和Anchor的机制
 
-* IBatchBolt
+* IBatchBolt：处理批量数据的接口。用于事务Topology中，是Storm实现事务Topology的基础
 
 Bolt是storm中的基础运行单位，当其启动并有消息输入时，将调用execute方法来进行处理。IBolt对象再提交时也会被序列化为字节数组，具体执行节点通过反序列化的方法得到该对象，并调用prepare回调方法
 
