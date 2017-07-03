@@ -88,6 +88,7 @@ Bolt是storm中的基础运行单位，当其启动并有消息输入时，将�
 #### ShellComponent
 用于与非java语言交互，目前通过标准输入输出来交换数据
 
+#### ComponentObject
 
 
 
