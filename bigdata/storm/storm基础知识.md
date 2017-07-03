@@ -94,7 +94,9 @@ Bolt是storm中的基础运行单位，当其启动并有消息输入时，将�
 用来表示Topology的之处对象
 主要定义
 * inputs: 表示组件将从哪些GlobalStreamId以何种分组方式接收数据，其中GlobalStreamId即为某个组件上面定义的一个流。
-* streams: 表示该组件要输出的所有流。它给定了streamId以及streamInfo。
+* streams: 表示该组件要输出的所有流。它给定了streamId以及streamInfo。在StreamInfo中，定义了每个输出流的字段名列表，以及该流的消息分组是否为直接分组方式。
+* parallelism_hint: 表示组件的并行度，即有多少个线程。
+* json_conf:保存与该组件相关的设置。
 
 
 
