@@ -50,7 +50,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 * getComponentConfiguration方法:用来描述一些与组件相关的配置
 ###7.Spout接口
 * ISpout
-* IRichSpout
+* IRichSpout:同时实现了ISpout和IComponent接口
 ###8.Bolt接口
 ###9.Storm数据结构
 
