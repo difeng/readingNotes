@@ -90,6 +90,13 @@ Bolt是storm中的基础运行单位，当其启动并有消息输入时，将�
 
 #### ComponentObject
 
+#### ComponentCommon
+
+
+
+
+
+
 
 
 
