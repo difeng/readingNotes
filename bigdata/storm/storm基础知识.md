@@ -98,7 +98,7 @@ Bolt是storm中的基础运行单位，当其启动并有消息输入时，将�
 * parallelism_hint: 表示组件的并行度，即有多少个线程。
 * json_conf:保存与该组件相关的设置。
 
-
+#### Bolt
 
 
 
