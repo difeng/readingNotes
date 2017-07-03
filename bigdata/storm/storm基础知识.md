@@ -60,7 +60,7 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 
 ###8.Bolt接口
 * IBolt
-* IRichBolt
+* IRichBolt：常用来定义Topology组件接口
 * IBasicBolt
 * IBatchBolt
 
