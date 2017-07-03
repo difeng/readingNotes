@@ -39,7 +39,11 @@ SpoutDeclarer和BoltDeclarer
 输出收集器的接口ISpoutOutputCollector
 默认实现SpoutOutputCollector
 ###5.Bolt输出收集器
-Bolt处理好的消息都是通过输出收集器发送出去的
+Bolt处理好的消息都是通过输出收集器发送出去的，不同类型的Bolt所使用额输出收集器是不同的
+
+* IRichBolt：使用OutputCollector输出收集器，该收集器实现的是IoutputCollector接口
+* IBasicBolt:使用BasicOutputCollector输出收集器，实现的是IBasicOutputCollector
+* IBatchBolt:使用BatchOutputCollector
 ###6.组件接口
 ###7.Spout接口
 ###8.Bolt接口
