@@ -48,7 +48,7 @@ $$\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} $$
 
 ![](http://latex.codecogs.com/gif.latex?\\rho=Cor(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}})
 
-$$ \sideset{}{_{xy}}r= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } } $$
+$$ r_{xy}= \frac {\sum(x-\overline{x})(y-\overline{y})} {\sqrt{\sum{(x-\overline{x})^2} \sum{(y-\overline{y})^2} } } $$
 
 ![](http://latex.codecogs.com/gif.latex?\\sideset{}{_{xy}}r=\frac{\sum(x-\overline{x})(y-\overline{y})}{\sqrt{\sum{(x-\overline{x})^2}\sum{(y-\overline{y})^2}}})
 
