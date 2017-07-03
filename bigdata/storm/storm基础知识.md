@@ -39,7 +39,7 @@ SpoutDeclarer和BoltDeclarer
 输出收集器的接口ISpoutOutputCollector
 默认实现SpoutOutputCollector
 ###5.Bolt输出收集器
-
+Bolt处理好的消息都是通过输出收集器发送出去的
 ###6.组件接口
 ###7.Spout接口
 ###8.Bolt接口
