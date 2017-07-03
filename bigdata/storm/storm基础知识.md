@@ -145,3 +145,5 @@ Bolt中包含两个成员：
 * acked
 * failed
 * complete_ms_avg
+#### 统计信息
+包含了在Storm UI上显示的数据
