@@ -91,8 +91,9 @@ Bolt是storm中的基础运行单位，当其启动并有消息输入时，将�
 #### ComponentObject
 
 #### ComponentCommon
-
-
+用来表示Topology的之处对象
+主要定义
+* inputs 表示组件将从哪些GlobalStreamId以何种分组方式接收数据，其中GlobalStreamId即为某个组件上面定义的一个流。
 
 
 
