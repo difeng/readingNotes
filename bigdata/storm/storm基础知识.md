@@ -24,9 +24,11 @@ Storm在zookeeper中的元数据的交互
 
 ###1.Fields定义
 Fields用于存储消息的字段名列表，其所需参数为其所有字段名集合。
+
 ###2.Tuple接口
 Tuple是Storm中主要的数据结构。在发送接收消息的过程中，每一条消息实际上都是一个Tuple对象。
 ###3.常用声明接口
+
 配置声明接口
 ComponentConfigurationDeclarer定义了一些和组件相关的配置项。可级联使用。
 输入声明接口
@@ -35,9 +37,11 @@ InputDeclarer，可级联使用。
 OutputFieldsDeclarer
 组件声明接口
 SpoutDeclarer和BoltDeclarer
+
 ###4.Spout输出收集器
 输出收集器的接口ISpoutOutputCollector
 默认实现SpoutOutputCollector
+
 ###5.Bolt输出收集器
 Bolt处理好的消息都是通过输出收集器发送出去的，不同类型的Bolt所使用额输出收集器是不同的
 
