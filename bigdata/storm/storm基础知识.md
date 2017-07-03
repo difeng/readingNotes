@@ -104,6 +104,12 @@ Bolt中包含两个成员：
 * ComponentCommon
 
 #### StormTopology
+组成：
+* 一些SpoutSpec
+* 一些Bolt
+* 一些StateSpoutSpec
+
+
 
 
 
