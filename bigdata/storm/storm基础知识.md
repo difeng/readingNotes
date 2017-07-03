@@ -60,4 +60,4 @@ Bolt处理好的消息都是通过输出收集器发送出去的，不同类型�
 * IBasicBolt
 * IBatchBolt
 
-Bolt是storm中的基础运行单位
+Bolt是storm中的基础运行单位，当其启动并有消息输入时，将调用execute方法来进行处理。IBolt对象再提交时也会被序列化为字节数组
