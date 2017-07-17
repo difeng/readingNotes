@@ -6,5 +6,7 @@
 ###Spark创建RDD
 
 * 方式一： 使用spark的SparkContext对象读取外部数据集
-* 方式二： 在驱动器中对一个集合进行并行化。使用SparkContext的parallelizef方法
+* 方式二： 在驱动器中对一个集合进行并行化。使用SparkContext的parallelize方法
+
+
 
