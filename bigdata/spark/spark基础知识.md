@@ -15,8 +15,13 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 
 对RDD基本的转化操作
 
-| : |
 | 函数名 | 目的 |
+|:----:|:----:|
+|map()| 将函数应用于RDD中的每个元素，将返回结果构成新的RDD|
+|flatMap()|相当于将map的结果扁平化|
+|filter()| 返回一个通过传给filter()的函数的元素组成的RDD|
+|distinct()|去重|
+|sample(writeReplacement, fraction, [seed])|对RDD采样，以及是否替换|
 
 
 
