@@ -23,6 +23,36 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |distinct()|去重|
 |sample(writeReplacement, fraction, [seed])|对RDD采样，以及是否替换|
 
+针对两个RDD的转化操作
+
+| 函数名 | 目的 |
+|:----:|:----:|
+|union| 生成一个包含两个RDD中所有元素的RDD|
+|intersection()|求了个RDD共同的RDD|
+|subtract()| 移除一个RDD中的内容|
+|cartesian()|与另一个RDD的笛卡尔积|
+
+对RDD的行动操作
+
+| 函数名 | 目的 |
+|:----:|:----:|
+|collect()| 返回RDD中的所有元素|
+|count()|RDD的个数|
+|countByValue()| 各元素在RDD中出现的次数|
+|take(num)|从RDD中返回num个元素|
+|take(num)|从RDD中返回num个元素|
+|take(num)|从RDD中返回num个元素|
+
+
+
+
+
+
+
+
+
+
+
 
 
 
