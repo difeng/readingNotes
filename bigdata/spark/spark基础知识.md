@@ -42,6 +42,17 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |take(num)|从RDD中返回num个元素|
 |take(num)|从RDD中返回num个元素|
 |take(num)|从RDD中返回num个元素|
+|take(num)|从RDD中返回num个元素|
+|take(num)|从RDD中返回num个元素|
+
+
+
+
+
+
+
+
+
 
 
 
