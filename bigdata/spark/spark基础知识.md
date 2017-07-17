@@ -45,7 +45,7 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |takeSample(withReplacement, num, [seed])|从RDD中返回任意一些元素|
 |reduce(func)|并行整合RDD中所有数据|
 |fold(zero)(func)|和reduce()一样，但是需要提供初始值|
-|aggregate(zeroValue)(seqOp, combOp)||
+|aggregate(zeroValue)(seqOp, combOp)|和reduce()类似，但通常返回不同类型的函数|
 
 
 
