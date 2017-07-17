@@ -40,8 +40,8 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |count()|RDD的个数|
 |countByValue()| 各元素在RDD中出现的次数|
 |take(num)|从RDD中返回num个元素|
-|take(num)|从RDD中返回num个元素|
-|take(num)|从RDD中返回num个元素|
+|top(num)|从RDD中返回最前面的num个元素|
+|takeOrdered(num)(Orderring)|从RDD中按提供的顺序返回最前面的num个元素|
 |take(num)|从RDD中返回num个元素|
 |take(num)|从RDD中返回num个元素|
 |take(num)|从RDD中返回num个元素|
