@@ -9,9 +9,9 @@
 * 方式二： 在驱动器中对一个集合进行并行化。使用SparkContext的parallelize方法
 
 ### 3. RDD转化和操作
-基本转化操作 map、flatMap、filter、union等
-
-Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的关系，以便在数据丢失时恢复数据
+* 基本转化操作 map、flatMap、filter、union等
+* RDD的转化操作都是惰性求值的，意味着当我们对RDD调用转化操作时，操作不会立即执行，Spark只是在内部记录下所要求执行的相关信息。RDD可当做通过转化构造出来的记录如何计算数据的指令列表。数据读取和转化都是惰性求值的
+* Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的关系，以便在数据丢失时恢复数据
 
 对RDD基本的转化操作
 
@@ -48,6 +48,11 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |aggregate(zeroValue)(seqOp, combOp)|和reduce()类似，但通常返回不同类型的函数|
 |foreach(func)|对RDD中每个元素使用给定的函数|
 
+### 4. 持久化
+持久化作用：避免多次计算同一个RDD
+
+故障处理： 持久化存储一个RDD时，计算RDD的节点会分别保存它们所求出的分区数据。如果一个有持久化数据的节点发生故障，Spark会在需要用到缓存数据时重算丢失的数据分区。
+persist()会把数据以序列化的形式缓存在JVM堆空间上
 
 
 
