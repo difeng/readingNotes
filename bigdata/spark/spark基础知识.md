@@ -43,7 +43,7 @@ Spark使用lineage graph(谱系图)记录通过转化得到新的RDD与原RDD的
 |top(num)|从RDD中返回最前面的num个元素|
 |takeOrdered(num)(Orderring)|从RDD中按提供的顺序返回最前面的num个元素|
 |takeSample(withReplacement, num, [seed])|从RDD中返回任意一些元素|
-|reduce()|从RDD中返回num个元素|
+|reduce(func)|并行整合RDD中所有数据|
 |take(num)|从RDD中返回num个元素|
 
 
