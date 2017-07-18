@@ -95,4 +95,4 @@ pair RDD是键值对类型的RDD
 
 #### 聚合操作
 
-reduceByKey()
+reduceByKey(): 与reduce类似
