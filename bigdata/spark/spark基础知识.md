@@ -78,7 +78,7 @@ pair RDD的转化操作
 |reduceByKey()| 合并具有相同键的值|
 |groupByKe()|对具有相同键的值分组|
 |combineByKey(createCombiner,mergeValue,mergeCombiners,partitioner)|使用不同的返回类型合并具有相同键的值|
-
+|mapValues(func)|对RDD中的的每个值应用func函数，键不变|
 
 
 
