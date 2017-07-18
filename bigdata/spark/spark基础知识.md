@@ -5,7 +5,7 @@
 * RDD可被分区运行在集群中不同节点上
 ### 2. Spark创建RDD
 
-* 方式一： 使用spark的SparkContext对象读取外部数据集
+* 方式一： 使用Spark的SparkContext对象读取外部数据集
 * 方式二： 在驱动器中对一个集合进行并行化。使用SparkContext的parallelize方法
 
 ### 3. RDD转化和操作
