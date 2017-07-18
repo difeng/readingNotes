@@ -87,7 +87,7 @@ pair RDD是键值对类型的RDD
 #### 针对两个pair RDD（rdd1，rdd2）的转化操作
 | 函数名 | 目的 |
 |:----:|:----:|
-|subtractByKey()| 删掉RDD中键的值|
+|subtractByKey()| 删掉rdd1中与rdd2中键值相同的元素|
 
 
 
