@@ -97,4 +97,4 @@ pair RDD是键值对类型的RDD
 #### 聚合操作
 
 reduceByKey(func): 与reduce(func)类似，只不过是对键进行归约操作
-foldByKey(value)(func): 与fold类似
+foldByKey(zero)(func): 与fold类似
