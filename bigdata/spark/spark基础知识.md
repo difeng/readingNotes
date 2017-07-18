@@ -108,4 +108,6 @@ groupBykey()
 #### 连接
 
 join():内连
-#### 排序
+#### 数据排序
+sortByKey(ascending)
+ascending是排序函数，升序排列(默认值为true)
