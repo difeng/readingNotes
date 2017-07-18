@@ -90,4 +90,4 @@ pair RDD是键值对类型的RDD
 |subtractByKey()| 删掉rdd1中与rdd2中键值相同的元素|
 |join|对rdd1和rdd2进行内连接|
 |rightOuterJoin|对rdd1和rdd2通过键来连接，去报rdd1中的键必须存在(右外连接)|
-|leftOuterJoin|对rdd1和rdd2通过键来连接，去报rdd2中的键必须存在(左外连接)
+|leftOuterJoin|对rdd1和rdd2通过键来连接，去报rdd2中的键必须存在(左外连接)|
