@@ -94,3 +94,5 @@ pair RDD是键值对类型的RDD
 |cogroup|将rdd1和rdd2中拥有相同键的数据分组|
 
 #### 聚合操作
+
+reduceByKey()
