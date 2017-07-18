@@ -1,4 +1,4 @@
-# spark RDD
+## spark RDD
 ### 1. RDD概念
 * 弹性分布式数据集(Resilient Distributed DataSet, 简称RDD)，在Spark上是不可变的分布式对象集合。
 
@@ -65,6 +65,13 @@ persist()会把数据以序列化的形式缓存在JVM堆空间上
 |DISK_ONLY|低|高|否|是||  
 
 数据多内存不足的情况下，Spark会使用LRU的缓存策略2最老的分区从内存中移除
+
+
+## 键值对RDD操作
+
+
+
+
 
 
 
