@@ -69,6 +69,8 @@ persist()会把数据以序列化的形式缓存在JVM堆空间上
 
 ## pair RDD操作
 
+pair RDD是键值对类型的RDD
+
 
 
 
