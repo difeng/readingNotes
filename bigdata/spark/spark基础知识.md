@@ -113,3 +113,8 @@ sortByKey(ascending)
 ascending是排序函数，升序排列(默认值为true)
 
 #### pair RDD的行动操作
+| 函数名 | 目的 |
+|:----:|:----:|
+|countByKey()|对每个键对应的元素分别计数|
+|collectAsMap()|将结果以映射表的形式返回，以便查询|
+|lookup(key)|返回给定键的所有值|
