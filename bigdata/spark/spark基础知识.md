@@ -121,3 +121,4 @@ ascending是排序函数，升序排列(默认值为true)
 
 #### 影响分区的操作
 以下操作都会为生成的结果RDD设好分区
+cogroup、groupWith()、join()、leftOuterJoin()、rightOuterJoin、groupByKey()、reduceByKey()、combineByKey()、partitionBy()、sort()、mapValues()、flatMapValues()
