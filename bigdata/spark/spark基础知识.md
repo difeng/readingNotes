@@ -99,3 +99,10 @@ pair RDD是键值对类型的RDD
 reduceByKey(func): 与reduce(func)类似，不过是对键进行归约操作
 foldByKey(zero)(func): 与fold类似
 combineByKey(): 基于键进行聚合的函数，与aggregate一样可以返回与输入类型不一致的返回值
+
+
+
+#### 数据分组
+
+groupBykey()
+#### 连接
