@@ -88,6 +88,4 @@ pair RDD是键值对类型的RDD
 | 函数名 | 目的 |
 |:----:|:----:|
 |subtractByKey()| 删掉rdd1中与rdd2中键值相同的元素|
-
-
-
+|join|对rdd1和rdd2进行内连接|
