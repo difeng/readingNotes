@@ -71,7 +71,7 @@ persist()会把数据以序列化的形式缓存在JVM堆空间上
 
 pair RDD是键值对类型的RDD
 
-pair RDD的转化操作
+#### pair RDD的转化操作
 
 | 函数名 | 目的 |
 |:----:|:----:|
@@ -80,3 +80,14 @@ pair RDD的转化操作
 |combineByKey(createCombiner,mergeValue,mergeCombiners,partitioner)|使用不同的返回类型合并具有相同键的值|
 |mapValues(func)|对RDD中的的每个值应用func函数，键不变|
 |flatMapValues(func)|对pair RDD中的每个值应用一个返回迭代器的函数，然后对返回的每个元素都生成一个对应原键的键值记录|
+|keys()|返回一个仅包含键的RDD|
+|values()|返回一个劲包含值的RDD|
+|sortByKey()|返回一个根据键排序的RDD|
+
+#### 针对两个pair RDD（rdd1，rdd2）的转化操作
+| 函数名 | 目的 |
+|:----:|:----:|
+|subtractByKey()| 删掉RDD中键的值|
+
+
+
