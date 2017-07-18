@@ -48,6 +48,7 @@
 |aggregate(zeroValue)(seqOp, combOp)|和reduce()类似，但通常返回不同类型的函数|
 |foreach(func)|对RDD中每个元素使用给定的函数|
 
+
 ### 4. 持久化
 持久化作用：避免多次计算同一个RDD
 
@@ -96,4 +97,4 @@ pair RDD是键值对类型的RDD
 #### 聚合操作
 
 reduceByKey(func): 与reduce(func)类似，只不过是对键进行归约操作
-foldByKey(value)(func)
+foldByKey(value)(func): 与fold类似
