@@ -111,3 +111,5 @@ join():内连
 #### 数据排序
 sortByKey(ascending)
 ascending是排序函数，升序排列(默认值为true)
+
+#### pair RDD的行动操作
