@@ -14,3 +14,4 @@
 ### 读取文本文件
 scala读取
 val input = sc.textFile("file://path")
+支持目录和通配符
