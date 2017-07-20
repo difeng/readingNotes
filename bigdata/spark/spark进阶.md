@@ -17,3 +17,4 @@ val input = sc.textFile("file://path")
 支持目录和通配符
 
 #### 文本文件保存
+result.saveAsTextFile(outputFile)
