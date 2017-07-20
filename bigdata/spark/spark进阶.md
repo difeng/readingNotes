@@ -12,3 +12,5 @@
 |对象文件|是|序列化的spark作业中的数据对象，当类改变时它会失效|
 
 ### 读取文本文件
+scala读取
+val input = sc.textFile("file://path")
