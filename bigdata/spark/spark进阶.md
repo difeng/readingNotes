@@ -21,7 +21,7 @@ result.saveAsTextFile(outputFile)
 
 spark提交任务过程
 
-1.submit提交应用，启动驱动器程序
+1.spark-submit提交应用
 2.驱动器程序连接集群管理器，集群管理器分配资源
 3.集群管理节点启动执行器节点
 4.
