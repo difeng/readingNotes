@@ -19,6 +19,7 @@ val input = sc.textFile("file://path")
 #### 文本文件保存
 result.saveAsTextFile(outputFile)
 
+
 #### spark-submit提交任务过程
 1.spark-submit提交应用
 2.submit脚本启动驱动器程序，调用应用的main方法
